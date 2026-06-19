@@ -1,0 +1,7 @@
+scoring_family,category,rna_information_used,compound_information_used,target_specific_ligands_used,manuscript_role,boundary_note
+RNAsmol,RNA-compound model,yes,yes,no,main RNA-aware scoring model on ROBIN perturbation pools,Interpreted only within matched target-wise candidate pools.
+constant prevalence,null baseline,no,no,no,tie-aware null ranking control,Uses no molecular or target information.
+global positive-nearest ECFP,ligand-only baseline,no,yes,no,mandatory chemical-prior control,Uses global training positives and compound fingerprints only.
+global kNN ECFP,ligand-only baseline,no,yes,no,mandatory chemical-prior control,Uses global training labels and compound fingerprints only.
+RF / XGBoost ECFP,supervised ligand-only baseline,no,yes,no,strong ligand-only supervised control,Trained without RNA features.
+target positive-nearest ECFP,known-target diagnostic,no,yes,yes,diagnostic only; not a general fair baseline,Uses target-specific train/validation positives and must be labeled separately.

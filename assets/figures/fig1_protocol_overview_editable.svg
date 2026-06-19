@@ -1,0 +1,2699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1774"
+   height="887"
+   viewBox="0 0 1774 887"
+   version="1.1"
+   id="svg218"
+   sodipodi:docname="fig1_protocol_overview_editable.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview218"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.8613303"
+     inkscape:cx="952.54453"
+     inkscape:cy="443.50001"
+     inkscape:window-width="3840"
+     inkscape:window-height="2089"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg218" />
+  <defs
+     id="defs11">
+    <linearGradient
+       id="goldBg"
+       x1="26.077733"
+       x2="402.47243"
+       y1="44.581712"
+       y2="420.97641"
+       gradientTransform="matrix(0.54836054,0,0,1.8236177,24.176258,-4.2980012)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fffaf0"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#fff7db"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="greenBg"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#fbfff7"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#eef8e8"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="blueBg"
+       x1="1661.0814"
+       x2="2135.0049"
+       y1="56.133419"
+       y2="530.05692"
+       gradientTransform="matrix(0.69044795,0,0,1.4483351,-37.607511,-4.8352514)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#f7fbff"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#eaf3ff"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="grayBg"
+       x1="2362.994"
+       x2="2794.9589"
+       y1="51.163671"
+       y2="483.12856"
+       gradientTransform="matrix(0.62931944,0,0,1.5890181,-37.607511,-4.8352514)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fbfbfb"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#eeeeee"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="moduleBg"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="#ffffff"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#f7f9f5"
+         id="stop10" />
+    </linearGradient>
+    <marker
+       id="arrow"
+       markerWidth="16"
+       markerHeight="16"
+       refX="12"
+       refY="8"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M1,1 L14,8 L1,15 Z"
+         fill="#26323c"
+         id="path10" />
+    </marker>
+    <marker
+       id="smallArrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="8"
+       refY="5"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M1,1 L9,5 L1,9 Z"
+         fill="#252525"
+         id="path11" />
+    </marker>
+    <filter
+       id="softShadow"
+       x="-0.0034146341"
+       y="-0.0010218978"
+       width="1.0068293"
+       height="1.0020438">
+      <feDropShadow
+         dx="0"
+         dy="2"
+         stdDeviation="2"
+         flood-color="#000000"
+         flood-opacity="0.08" />
+    </filter>
+    <style
+       id="style11">
+    text { font-family: Arial, Helvetica, sans-serif; dominant-baseline: alphabetic; }
+    .panel-title { font-size: 25px; font-weight: 700; fill: #05080d; }
+    .module-title { font-size: 20px; font-weight: 700; fill: #07164a; }
+    .module-title-green { font-size: 20px; font-weight: 700; fill: #102919; }
+    .small { font-size: 16px; font-weight: 400; fill: #0c1220; }
+    .tiny { font-size: 14px; font-weight: 400; fill: #0c1220; }
+    .axis { stroke: #111111; stroke-width: 3; fill: none; }
+    .thin { stroke: #61708a; stroke-width: 1.6; fill: none; }
+    .dash { stroke-dasharray: 7 8; }
+    .editable-note { fill: #666; font-size: 11px; }
+  </style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greenBg"
+       id="linearGradient1"
+       x1="840.26081"
+       y1="65.16537"
+       x2="1390.4393"
+       y2="615.34387"
+       gradientTransform="matrix(0.80154207,0,0,1.2475952,-21.490006,-3.7607511)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#greenBg"
+       id="linearGradient2"
+       x1="364.78474"
+       y1="59.893635"
+       x2="870.45502"
+       y2="565.56391"
+       gradientTransform="matrix(0.73669908,0,0,1.3574063,-7.5215022,-3.7607511)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1774"
+     height="887"
+     fill="#ffffff"
+     id="rect11" />
+  <text
+     x="887.0"
+     y="51"
+     font-size="33"
+     font-weight="700"
+     fill="#050505"
+     text-anchor="middle"
+     id="text11"><tspan
+       x="887.0"
+       dy="0"
+       id="tspan11">Target-wise low-cost RNA-compound screening protocol</tspan></text>
+  <rect
+     x="39.176254"
+     y="77.701988"
+     width="205"
+     height="685"
+     rx="9"
+     ry="9"
+     fill="url(#goldBg)"
+     stroke="#c29a2a"
+     stroke-width="1.4"
+     filter="url(#softShadow)"
+     id="rect12"
+     style="fill:url(#goldBg)" />
+  <text
+     x="141.67627"
+     y="112.70199"
+     font-size="25px"
+     font-weight="700"
+     fill="#05080d"
+     text-anchor="middle"
+     id="text12"><tspan
+       x="141.67627"
+       dy="0"
+       id="tspan12">1. Resources</tspan></text>
+  <rect
+     x="262.47852"
+     y="78.239243"
+     width="370"
+     height="685"
+     rx="9"
+     ry="9"
+     fill="url(#greenBg)"
+     stroke="#74a65f"
+     stroke-width="1.4"
+     filter="url(#softShadow)"
+     id="rect13"
+     style="fill:url(#linearGradient2)" />
+  <text
+     x="447.47852"
+     y="113.23924"
+     font-size="25px"
+     font-weight="700"
+     fill="#05080d"
+     text-anchor="middle"
+     id="text13"><tspan
+       x="447.47852"
+       dy="0"
+       id="tspan13">2. Target-wise pools</tspan></text>
+  <rect
+     x="653.50995"
+     y="78.239243"
+     width="438"
+     height="685"
+     rx="9"
+     ry="9"
+     fill="url(#greenBg)"
+     stroke="#74a65f"
+     stroke-width="1.4"
+     filter="url(#softShadow)"
+     id="rect14"
+     style="fill:url(#linearGradient1)" />
+  <text
+     x="872.50995"
+     y="113.23925"
+     font-size="25px"
+     font-weight="700"
+     fill="#05080d"
+     text-anchor="middle"
+     id="text14"><tspan
+       x="872.50995"
+       dy="0"
+       id="tspan14">3. Protocol contract</tspan></text>
+  <rect
+     x="1110.3926"
+     y="77.164742"
+     width="325"
+     height="685"
+     rx="9"
+     ry="9"
+     fill="url(#blueBg)"
+     stroke="#7ba0d0"
+     stroke-width="1.4"
+     filter="url(#softShadow)"
+     id="rect15"
+     style="fill:url(#blueBg)" />
+  <text
+     x="1272.8926"
+     y="112.16473"
+     font-size="25px"
+     font-weight="700"
+     fill="#05080d"
+     text-anchor="middle"
+     id="text15"><tspan
+       x="1272.8926"
+       dy="0"
+       id="tspan15">4. Low-cost controls</tspan></text>
+  <rect
+     x="1450.3926"
+     y="77.164742"
+     width="270"
+     height="685"
+     rx="9"
+     ry="9"
+     fill="url(#grayBg)"
+     stroke="#8a8a8a"
+     stroke-width="1.4"
+     filter="url(#softShadow)"
+     id="rect16"
+     style="fill:url(#grayBg)" />
+  <text
+     x="1585.3926"
+     y="112.16473"
+     font-size="25px"
+     font-weight="700"
+     fill="#05080d"
+     text-anchor="middle"
+     id="text16"><tspan
+       x="1585.3926"
+       dy="0"
+       id="tspan16">5. Diagnostics</tspan></text>
+  <rect
+     x="53.176254"
+     y="133.70201"
+     width="175"
+     height="119"
+     rx="8"
+     ry="8"
+     fill="#fffdf7"
+     stroke="#d3a63d"
+     stroke-width="1.2"
+     id="rect17" />
+  <rect
+     x="53.176254"
+     y="271.70203"
+     width="175"
+     height="130"
+     rx="8"
+     ry="8"
+     fill="#fffdf7"
+     stroke="#d3a63d"
+     stroke-width="1.2"
+     id="rect18" />
+  <rect
+     x="53.176254"
+     y="424.70203"
+     width="175"
+     height="130"
+     rx="8"
+     ry="8"
+     fill="#fffdf7"
+     stroke="#d3a63d"
+     stroke-width="1.2"
+     id="rect19" />
+  <rect
+     x="53.176254"
+     y="576.70197"
+     width="175"
+     height="146"
+     rx="8"
+     ry="8"
+     fill="#fffdf7"
+     stroke="#d3a63d"
+     stroke-width="1.2"
+     id="rect20" />
+  <image
+     href="fig1_components/icon_deeprna_dti_crop.png"
+     x="102.17625"
+     y="145.70201"
+     width="70"
+     height="74"
+     id="component-icon_deeprna_dti_crop"
+     preserveAspectRatio="xMidYMid" />
+  <text
+     x="141.17627"
+     y="235.70201"
+     font-size="20px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text20"><tspan
+       x="141.17627"
+       dy="0"
+       id="tspan20">DeepRNA-DTI</tspan></text>
+  <image
+     href="fig1_components/icon_rnasmol_robin_crop.png"
+     x="74.176262"
+     y="297.70203"
+     width="132"
+     height="70"
+     id="component-icon_rnasmol_robin_crop"
+     preserveAspectRatio="xMidYMid" />
+  <text
+     x="141.17627"
+     y="381.70203"
+     font-size="20px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text21"><tspan
+       x="141.17627"
+       dy="0"
+       id="tspan21">RNAsmol/ROBIN</tspan></text>
+  <image
+     href="fig1_components/icon_smrtnet_crop.png"
+     x="84.176262"
+     y="433.70203"
+     width="114"
+     height="86"
+     id="component-icon_smrtnet_crop"
+     preserveAspectRatio="xMidYMid" />
+  <text
+     x="141.17627"
+     y="535.70197"
+     font-size="20px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text22"><tspan
+       x="141.17627"
+       dy="0"
+       id="tspan22">SMRTnet</tspan></text>
+  <ellipse
+     cx="141.17627"
+     cy="603.70197"
+     rx="37"
+     ry="12"
+     fill="#8d84d0"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="ellipse22" />
+  <rect
+     x="104.17625"
+     y="603.70197"
+     width="74"
+     height="48"
+     fill="#4b3d91"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="rect22" />
+  <ellipse
+     cx="141.17627"
+     cy="651.70197"
+     rx="37"
+     ry="12"
+     fill="#5c55aa"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="ellipse23" />
+  <path
+     d="m 104.17626,621.702 c 18,10 56,10 74,0"
+     stroke="#ffffff"
+     stroke-width="3"
+     fill="none"
+     opacity="0.9"
+     id="path23" />
+  <path
+     d="m 104.17626,639.702 c 18,10 56,10 74,0"
+     stroke="#ffffff"
+     stroke-width="3"
+     fill="none"
+     opacity="0.9"
+     id="path24" />
+  <text
+     x="141.17627"
+     y="683.90973"
+     font-size="20px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text24"><tspan
+       x="141.17627"
+       dy="0"
+       id="tspan24">PubChem</tspan></text>
+  <text
+     x="141.17627"
+     y="709.90973"
+     font-size="18px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text25"><tspan
+       x="141.17627"
+       dy="0"
+       id="tspan25">(BioAssay)</tspan></text>
+  <text
+     x="362.47852"
+     y="175.23926"
+     font-size="18px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text28"><tspan
+       x="362.47852"
+       dy="0"
+       id="tspan28">RNA target (t)</tspan></text>
+  <image
+     href="fig1_components/icon_rna_target_crop.png"
+     x="308.47852"
+     y="197.23926"
+     width="92"
+     height="102"
+     id="component-icon_rna_target_crop"
+     preserveAspectRatio="xMidYMid" />
+  <line
+     x1="355.46277"
+     y1="339.63174"
+     x2="355.46277"
+     y2="446.63174"
+     stroke="#111111"
+     stroke-width="2"
+     stroke-dasharray="7, 8"
+     marker-end="url(#smallArrow)"
+     id="line28" />
+  <text
+     x="356.98428"
+     y="506.6275"
+     font-size="18px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text30"><tspan
+       x="356.98428"
+       dy="0"
+       id="tspan29">Candidate pool</tspan><tspan
+       x="356.98428"
+       dy="21.6"
+       id="tspan30">for target t</tspan></text>
+  <rect
+     x="297.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#f6faf3"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect30" />
+  <rect
+     x="329.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#b5d8a0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect31" />
+  <rect
+     x="361.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#edf5e6"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect32" />
+  <rect
+     x="393.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#f9faf6"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect33" />
+  <rect
+     x="425.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#f3f5f0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect34" />
+  <rect
+     x="457.47852"
+     y="542.2392"
+     width="32"
+     height="32"
+     fill="#f9faf6"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect35" />
+  <rect
+     x="297.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#f5faf0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect36" />
+  <rect
+     x="329.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#78ad62"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect37" />
+  <rect
+     x="361.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#dceccd"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect38" />
+  <rect
+     x="393.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#f7f8f4"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect39" />
+  <rect
+     x="425.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#d3d9d3"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect40" />
+  <rect
+     x="457.47852"
+     y="574.2392"
+     width="32"
+     height="32"
+     fill="#edf0ec"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect41" />
+  <rect
+     x="297.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#f5faf0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect42" />
+  <rect
+     x="329.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#b9dca8"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect43" />
+  <rect
+     x="361.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#eef6e8"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect44" />
+  <rect
+     x="393.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#d3d9d3"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect45" />
+  <rect
+     x="425.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#f8f8f5"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect46" />
+  <rect
+     x="457.47852"
+     y="606.2392"
+     width="32"
+     height="32"
+     fill="#f8f8f5"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect47" />
+  <rect
+     x="297.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#f5faf0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect48" />
+  <rect
+     x="329.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#78ad62"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect49" />
+  <rect
+     x="361.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#f3f6ef"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect50" />
+  <rect
+     x="393.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#f8f8f5"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect51" />
+  <rect
+     x="425.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#f8f8f5"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect52" />
+  <rect
+     x="457.47852"
+     y="638.2392"
+     width="32"
+     height="32"
+     fill="#f8f8f5"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect53" />
+  <rect
+     x="297.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#f5faf0"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect54" />
+  <rect
+     x="329.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#9cc783"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect55" />
+  <rect
+     x="361.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#dceccd"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect56" />
+  <rect
+     x="393.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#f6f7f4"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect57" />
+  <rect
+     x="425.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#f6f7f4"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect58" />
+  <rect
+     x="457.47852"
+     y="670.2392"
+     width="32"
+     height="32"
+     fill="#f6f7f4"
+     stroke="#8ba579"
+     stroke-width="0.8"
+     id="rect59" />
+  <text
+     x="359.47852"
+     y="740.2392"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text59"><tspan
+       x="359.47852"
+       dy="0"
+       id="tspan59">Targets</tspan></text>
+  <text
+     x="-654.2392"
+     y="283.47852"
+     font-size="15px"
+     fill="#0c1220"
+     text-anchor="middle"
+     transform="rotate(-90)"
+     id="text60">Compounds</text>
+  <text
+     x="309.47852"
+     y="626.2392"
+     font-size="17px"
+     font-weight="400"
+     fill="#616161"
+     text-anchor="start"
+     id="text61"><tspan
+       x="309.47852"
+       dy="0"
+       id="tspan60">...</tspan></text>
+  <text
+     x="520.47845"
+     y="150.23926"
+     font-size="18px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text62"><tspan
+       x="520.47845"
+       dy="0"
+       id="tspan61">Ranked compounds</tspan><tspan
+       x="520.47845"
+       dy="18.9"
+       id="tspan62">for target t</tspan></text>
+  <rect
+     x="432.89825"
+     y="229.00002"
+     width="181"
+     height="252"
+     fill="#fbfcf7"
+     stroke="#8aa36d"
+     stroke-width="1.2"
+     id="rect62" />
+  <line
+     x1="480.89825"
+     y1="229.00002"
+     x2="480.89825"
+     y2="481"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line62" />
+  <line
+     x1="558.89819"
+     y1="229.00002"
+     x2="558.89819"
+     y2="481"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line63" />
+  <line
+     x1="432.89825"
+     y1="271"
+     x2="613.89819"
+     y2="271"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line64" />
+  <line
+     x1="432.89825"
+     y1="313"
+     x2="613.89819"
+     y2="313"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line65" />
+  <line
+     x1="432.89825"
+     y1="355"
+     x2="613.89819"
+     y2="355"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line66" />
+  <line
+     x1="432.89825"
+     y1="397"
+     x2="613.89819"
+     y2="397"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line67" />
+  <line
+     x1="432.89825"
+     y1="439"
+     x2="613.89819"
+     y2="439"
+     stroke="#9db284"
+     stroke-width="1"
+     id="line68" />
+  <text
+     x="457.97275"
+     y="212.23926"
+     font-size="13px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text68"><tspan
+       x="457.97275"
+       dy="0"
+       id="tspan68">Rank</tspan></text>
+  <text
+     x="520.97272"
+     y="212.23926"
+     font-size="13px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text69"><tspan
+       x="520.97272"
+       dy="0"
+       id="tspan69">Compound</tspan></text>
+  <text
+     x="587.47272"
+     y="212.23926"
+     font-size="13px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text70"><tspan
+       x="587.47272"
+       dy="0"
+       id="tspan70">Score</tspan></text>
+  <text
+     x="456.89825"
+     y="256"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text71"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan71">1</tspan></text>
+  <text
+     x="586.89819"
+     y="256"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text72"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan72">0.93</tspan></text>
+  <text
+     x="456.89825"
+     y="298"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text73"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan73">2</tspan></text>
+  <text
+     x="586.89819"
+     y="298"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text74"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan74">0.88</tspan></text>
+  <text
+     x="456.89825"
+     y="340"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text75"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan75">3</tspan></text>
+  <text
+     x="586.89819"
+     y="340"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text76"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan76">0.81</tspan></text>
+  <text
+     x="456.89825"
+     y="382"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text77"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan77">...</tspan></text>
+  <text
+     x="586.89819"
+     y="382"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text78"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan78">...</tspan></text>
+  <text
+     x="456.89825"
+     y="424"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text79"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan79">n - 1</tspan></text>
+  <text
+     x="586.89819"
+     y="424"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text80"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan80">0.05</tspan></text>
+  <text
+     x="456.89825"
+     y="466"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text81"><tspan
+       x="456.89825"
+       dy="0"
+       id="tspan81">n</tspan></text>
+  <text
+     x="586.89819"
+     y="466"
+     font-size="15px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="middle"
+     id="text82"><tspan
+       x="586.89819"
+       dy="0"
+       id="tspan82">0.02</tspan></text>
+  <polygon
+     points="536,265 531,243 540,232 556,236 563,252 553,265 "
+     fill="#739ad3"
+     stroke="#1a2540"
+     stroke-width="2"
+     id="polygon82"
+     transform="translate(-23.101756)" />
+  <circle
+     cx="521.89819"
+     cy="292"
+     r="12"
+     fill="#f2cd5b"
+     stroke="#1a2540"
+     stroke-width="2"
+     id="circle82" />
+  <polygon
+     points="536,349 531,327 540,316 556,320 563,336 553,349 "
+     fill="#83c74b"
+     stroke="#1a2540"
+     stroke-width="2"
+     id="polygon83"
+     transform="translate(-23.101756)" />
+  <polygon
+     points="558,418 545,431 532,418 545,405 "
+     fill="#ef7890"
+     stroke="#1a2540"
+     stroke-width="2"
+     id="polygon84"
+     transform="translate(-23.101756)" />
+  <polygon
+     points="531,473 545,446 559,473 "
+     fill="#eeeeee"
+     stroke="#777777"
+     stroke-width="2"
+     id="polygon85"
+     transform="translate(-23.101756)" />
+  <path
+     d="m 492.81142,648.63104 h 53.03779 V 495.85259"
+     stroke="#111111"
+     stroke-width="2"
+     fill="none"
+     stroke-dasharray="7, 8"
+     marker-end="url(#smallArrow)"
+     id="path85" />
+  <rect
+     x="666.50995"
+     y="134.23924"
+     width="410"
+     height="108"
+     rx="8"
+     ry="8"
+     fill="#fcfffa"
+     stroke="#8aaf70"
+     stroke-width="1.2"
+     id="rect85" />
+  <rect
+     x="666.50995"
+     y="261.23926"
+     width="410"
+     height="105"
+     rx="8"
+     ry="8"
+     fill="#fcfffa"
+     stroke="#8aaf70"
+     stroke-width="1.2"
+     id="rect86" />
+  <rect
+     x="666.50995"
+     y="385.23926"
+     width="410"
+     height="106"
+     rx="8"
+     ry="8"
+     fill="#fcfffa"
+     stroke="#8aaf70"
+     stroke-width="1.2"
+     id="rect87" />
+  <rect
+     x="666.50995"
+     y="511.23929"
+     width="410"
+     height="107"
+     rx="8"
+     ry="8"
+     fill="#fcfffa"
+     stroke="#8aaf70"
+     stroke-width="1.2"
+     id="rect88" />
+  <rect
+     x="666.50995"
+     y="637.23926"
+     width="410"
+     height="106"
+     rx="8"
+     ry="8"
+     fill="#fcfffa"
+     stroke="#8aaf70"
+     stroke-width="1.2"
+     id="rect89" />
+  <path
+     d="m 717.43549,141.34525 30,14 -4,48 c -8,16 -19,26 -26,30 -7,-4 -18,-14 -26,-30 l -4,-48 z"
+     fill="#edf8ef"
+     stroke="#153b28"
+     stroke-width="4"
+     id="path89" />
+  <path
+     d="m 717.43549,151.34525 17,8 -3,40 c -5,11 -10,18 -14,21 z"
+     fill="#2f7d44"
+     opacity="0.85"
+     id="path90" />
+  <text
+     x="760.50995"
+     y="167.23924"
+     font-size="20px"
+     font-weight="700"
+     fill="#102919"
+     text-anchor="start"
+     id="text90"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan90">Information boundary (low-cost)</tspan></text>
+  <text
+     x="760.50995"
+     y="197.23924"
+     font-size="16px"
+     font-weight="400"
+     fill="#0c1220"
+     text-anchor="start"
+     id="text92"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan91">RNA sequence + 2D annotations</tspan><tspan
+       x="760.50995"
+       dy="20.48"
+       id="tspan92">+ SMILES/ECFP only; no RNA-ligand 3D</tspan></text>
+  <rect
+     x="690.60022"
+     y="281.49426"
+     width="54"
+     height="70"
+     rx="5"
+     fill="#f5fbf4"
+     stroke="#19402c"
+     stroke-width="4"
+     id="rect92" />
+  <rect
+     x="704.60022"
+     y="273.49426"
+     width="28"
+     height="16"
+     rx="4"
+     fill="#6aa06a"
+     stroke="#19402c"
+     stroke-width="3"
+     id="rect93" />
+  <polyline
+     points="728,312 733,317 741,308"
+     stroke="#19402c"
+     stroke-width="2.5"
+     fill="none"
+     id="polyline93"
+     transform="translate(-27.399758,-14.505754)" />
+  <line
+     x1="719.60022"
+     y1="297.49426"
+     x2="737.60022"
+     y2="297.49426"
+     stroke="#19402c"
+     stroke-width="2"
+     id="line93" />
+  <polyline
+     points="728,325 733,330 741,321"
+     stroke="#19402c"
+     stroke-width="2.5"
+     fill="none"
+     id="polyline94"
+     transform="translate(-27.399758,-14.505754)" />
+  <line
+     x1="719.60022"
+     y1="310.49426"
+     x2="737.60022"
+     y2="310.49426"
+     stroke="#19402c"
+     stroke-width="2"
+     id="line94" />
+  <polyline
+     points="728,338 733,343 741,334"
+     stroke="#19402c"
+     stroke-width="2.5"
+     fill="none"
+     id="polyline95"
+     transform="translate(-27.399758,-14.505754)" />
+  <line
+     x1="719.60022"
+     y1="323.49426"
+     x2="737.60022"
+     y2="323.49426"
+     stroke="#19402c"
+     stroke-width="2"
+     id="line95" />
+  <polyline
+     points="728,351 733,356 741,347"
+     stroke="#19402c"
+     stroke-width="2.5"
+     fill="none"
+     id="polyline96"
+     transform="translate(-27.399758,-14.505754)" />
+  <line
+     x1="719.60022"
+     y1="336.49426"
+     x2="737.60022"
+     y2="336.49426"
+     stroke="#19402c"
+     stroke-width="2"
+     id="line96" />
+  <text
+     x="760.50995"
+     y="295.23926"
+     font-size="20px"
+     font-weight="700"
+     fill="#102919"
+     text-anchor="start"
+     id="text96"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan96">Eligibility &amp; pool construction</tspan></text>
+  <text
+     x="760.50995"
+     y="325.23926"
+     font-size="16px"
+     font-weight="400"
+     fill="#0c1220"
+     text-anchor="start"
+     id="text98"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan97">Activity thresholds, duplicate handling,</tspan><tspan
+       x="760.50995"
+       dy="20.48"
+       id="tspan98">minimum actives, per-target sample caps</tspan></text>
+  <rect
+     x="686.50995"
+     y="458.23926"
+     width="10"
+     height="18"
+     fill="#83b66e"
+     stroke="#19402c"
+     stroke-width="2"
+     id="rect98" />
+  <rect
+     x="702.50995"
+     y="445.23926"
+     width="10"
+     height="31"
+     fill="#83b66e"
+     stroke="#19402c"
+     stroke-width="2"
+     id="rect99" />
+  <rect
+     x="718.50995"
+     y="431.23926"
+     width="10"
+     height="45"
+     fill="#83b66e"
+     stroke="#19402c"
+     stroke-width="2"
+     id="rect100" />
+  <rect
+     x="734.50995"
+     y="415.23926"
+     width="10"
+     height="61"
+     fill="#83b66e"
+     stroke="#19402c"
+     stroke-width="2"
+     id="rect101" />
+  <line
+     x1="686.50995"
+     y1="476.23926"
+     x2="751.22772"
+     y2="476.23926"
+     stroke="#19402c"
+     stroke-width="2.76838"
+     id="line101" />
+  <line
+     x1="686.50995"
+     y1="476.23926"
+     x2="686.50995"
+     y2="414.23926"
+     stroke="#19402c"
+     stroke-width="3"
+     id="line102" />
+  <polyline
+     points="716,466 734,458 750,440 766,429"
+     stroke="#1b6b37"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#smallArrow)"
+     id="polyline102"
+     transform="translate(-21.490006,-3.7607511)" />
+  <text
+     x="760.50995"
+     y="422.23926"
+     font-size="20px"
+     font-weight="700"
+     fill="#102919"
+     text-anchor="start"
+     id="text102"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan102">Tie-aware target-wise metrics</tspan></text>
+  <text
+     x="760.50995"
+     y="452.23926"
+     font-size="16px"
+     font-weight="400"
+     fill="#0c1220"
+     text-anchor="start"
+     id="text104"><tspan
+       x="760.50995"
+       dy="0"
+       id="tspan103">EF1/EF5, MRR, First-hit rank,</tspan><tspan
+       x="760.50995"
+       dy="20.48"
+       id="tspan104">AUPR; ties handled consistently</tspan></text>
+  <image
+     href="fig1_components/ligand_control_rdkit.svg"
+     x="682.50995"
+     y="528.23926"
+     width="76"
+     height="72"
+     id="component-ligand_control_rdkit"
+     preserveAspectRatio="xMidYMid" />
+  <text
+     x="804.90692"
+     y="519.20496"
+     font-size="18.9408px"
+     font-weight="700"
+     fill="#102919"
+     text-anchor="start"
+     id="text105"
+     transform="scale(0.9470409,1.0559206)"
+     style="stroke-width:0.947041"><tspan
+       x="804.90692"
+       dy="0"
+       id="tspan105"
+       style="stroke-width:0.947041">Ligand controls (chemistry priors)</tspan></text>
+  <text
+     x="762.1217"
+     y="578.23926"
+     font-size="16px"
+     font-weight="400"
+     fill="#0c1220"
+     text-anchor="start"
+     id="text107"><tspan
+       x="762.1217"
+       dy="0"
+       id="tspan106">Ligand-only similarity and ML baselines</tspan><tspan
+       x="762.1217"
+       dy="20.48"
+       id="tspan107">(ECFP NN/kNN, RF, XGBoost)</tspan></text>
+  <circle
+     cx="689.6474"
+     cy="670.88251"
+     r="10"
+     fill="#6ca36c"
+     stroke="#173b27"
+     stroke-width="3"
+     id="circle107" />
+  <circle
+     cx="717.6474"
+     cy="670.88251"
+     r="10"
+     fill="#6ca36c"
+     stroke="#173b27"
+     stroke-width="3"
+     id="circle108" />
+  <circle
+     cx="741.6474"
+     cy="675.88251"
+     r="9"
+     fill="#6ca36c"
+     stroke="#173b27"
+     stroke-width="3"
+     id="circle109" />
+  <path
+     d="m 677.31799,719.89825 c 2,-31 40,-31 42,0"
+     stroke="#173b27"
+     stroke-width="4"
+     fill="#bde0b6"
+     id="path109" />
+  <path
+     d="m 709.40824,719.89825 c 2,-28 40,-28 42,0"
+     stroke="#173b27"
+     stroke-width="4"
+     fill="#bde0b6"
+     id="path110" />
+  <text
+     x="763.73346"
+     y="673.23926"
+     font-size="20px"
+     font-weight="700"
+     fill="#102919"
+     text-anchor="start"
+     id="text110"><tspan
+       x="763.73346"
+       dy="0"
+       id="tspan110">Paired uncertainty</tspan></text>
+  <text
+     x="763.73346"
+     y="703.23926"
+     font-size="16px"
+     font-weight="400"
+     fill="#0c1220"
+     text-anchor="start"
+     id="text112"><tspan
+       x="763.73346"
+       dy="0"
+       id="tspan111">Per-target paired bootstrap over</tspan><tspan
+       x="763.73346"
+       dy="20.48"
+       id="tspan112">actives/decoys for CIs and tests</tspan></text>
+  <rect
+     x="1124.8748"
+     y="133.96065"
+     width="291.96118"
+     height="147.09442"
+     rx="7.9989362"
+     ry="8.5272131"
+     fill="#f9fcff"
+     stroke="#87a8d6"
+     stroke-width="1.23883"
+     id="rect112" />
+  <rect
+     x="1125.3702"
+     y="299.2012"
+     width="292.04462"
+     height="128.83687"
+     rx="8.0012226"
+     ry="7.415071"
+     fill="#f9fcff"
+     stroke="#87a8d6"
+     stroke-width="1.15539"
+     id="rect113" />
+  <rect
+     x="1125.3926"
+     y="446.16476"
+     width="292"
+     height="133"
+     rx="8"
+     ry="8"
+     fill="#f9fcff"
+     stroke="#87a8d6"
+     stroke-width="1.2"
+     id="rect114" />
+  <rect
+     x="1125.422"
+     y="596.19409"
+     width="291.94125"
+     height="146.3725"
+     rx="7.9983902"
+     ry="8.8043604"
+     fill="#f9fcff"
+     stroke="#87a8d6"
+     stroke-width="1.25876"
+     id="rect115" />
+  <text
+     x="1157.3926"
+     y="173.16475"
+     font-size="20px"
+     font-weight="700"
+     fill="#092064"
+     text-anchor="start"
+     id="text115"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan115">ECFP fingerprints</tspan></text>
+  <text
+     x="1157.3926"
+     y="203.16475"
+     font-size="16px"
+     font-weight="400"
+     fill="#092064"
+     text-anchor="start"
+     id="text116"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan116">(e.g., radius-2)</tspan></text>
+  <text
+     x="1157.3926"
+     y="233.16475"
+     font-size="17px"
+     font-weight="400"
+     fill="#00164d"
+     text-anchor="start"
+     id="text117"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan117">1 0 1 0 1 1 ... 0 1</tspan></text>
+  <rect
+     x="1157.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#bcd3f3"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect117" />
+  <rect
+     x="1184.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#d9e7fb"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect118" />
+  <rect
+     x="1211.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#bcd3f3"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect119" />
+  <rect
+     x="1238.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#d9e7fb"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect120" />
+  <rect
+     x="1265.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#bcd3f3"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect121" />
+  <rect
+     x="1292.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#d9e7fb"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect122" />
+  <rect
+     x="1319.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#bcd3f3"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect123" />
+  <rect
+     x="1346.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#d9e7fb"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect124" />
+  <rect
+     x="1373.3926"
+     y="249.16475"
+     width="27"
+     height="18"
+     fill="#bcd3f3"
+     stroke="#174180"
+     stroke-width="1.5"
+     id="rect125" />
+  <text
+     x="1157.3926"
+     y="331.76077"
+     font-size="20px"
+     font-weight="700"
+     fill="#092064"
+     text-anchor="start"
+     id="text126"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan125">Nearest-neighbor</tspan><tspan
+       x="1157.3926"
+       dy="23"
+       id="tspan126">similarity</tspan></text>
+  <text
+     x="1157.3926"
+     y="382.76077"
+     font-size="16px"
+     font-weight="400"
+     fill="#092064"
+     text-anchor="start"
+     id="text127"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan127">Tanimoto / kNN</tspan></text>
+  <circle
+     cx="1313.6591"
+     cy="372.44702"
+     r="6"
+     fill="#4c7cc9"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle127" />
+  <circle
+     cx="1327.3926"
+     cy="345.16476"
+     r="6"
+     fill="#6d92d0"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle128" />
+  <circle
+     cx="1358.3926"
+     cy="367.16476"
+     r="6"
+     fill="#3f6dbb"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle129" />
+  <circle
+     cx="1385.3926"
+     cy="333.16476"
+     r="6"
+     fill="#a7b0bd"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle130" />
+  <circle
+     cx="1374.7106"
+     cy="358.51001"
+     r="6"
+     fill="#c7cbd2"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle131" />
+  <circle
+     cx="1383.3926"
+     cy="401.16476"
+     r="6"
+     fill="#a7b0bd"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle132" />
+  <circle
+     cx="1337.3926"
+     cy="395.16476"
+     r="6"
+     fill="#c7cbd2"
+     stroke="#27394f"
+     stroke-width="1"
+     id="circle133" />
+  <circle
+     cx="1363.3926"
+     cy="371.16476"
+     r="32"
+     fill="none"
+     stroke="#315c9c"
+     stroke-width="1.5"
+     stroke-dasharray="5, 6"
+     id="circle134" />
+  <line
+     x1="1363.3926"
+     y1="338.16476"
+     x2="1363.3926"
+     y2="405.16476"
+     stroke="#315c9c"
+     stroke-width="1.4"
+     stroke-dasharray="5, 6"
+     id="line134" />
+  <line
+     x1="1331.3926"
+     y1="371.16476"
+     x2="1397.3926"
+     y2="371.16476"
+     stroke="#315c9c"
+     stroke-width="1.4"
+     stroke-dasharray="5, 6"
+     id="line135" />
+  <polyline
+     points="1405,378 1426,393 1439,410"
+     stroke="#244d88"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#smallArrow)"
+     id="polyline135"
+     transform="translate(-37.607511,-4.8352514)" />
+  <text
+     x="1157.3926"
+     y="487.16476"
+     font-size="20px"
+     font-weight="700"
+     fill="#092064"
+     text-anchor="start"
+     id="text135"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan135">ML baselines</tspan></text>
+  <text
+     x="1157.3926"
+     y="517.16473"
+     font-size="16px"
+     font-weight="400"
+     fill="#092064"
+     text-anchor="start"
+     id="text137"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan136">RF / XGBoost</tspan><tspan
+       x="1157.3926"
+       dy="20"
+       id="tspan137">on ECFP features</tspan></text>
+  <line
+     x1="1354.0043"
+     y1="476.12177"
+     x2="1329.0043"
+     y2="512.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line137" />
+  <line
+     x1="1354.0043"
+     y1="476.12177"
+     x2="1379.0043"
+     y2="512.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line138" />
+  <line
+     x1="1329.0043"
+     y1="512.1217"
+     x2="1312.0043"
+     y2="546.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line139" />
+  <line
+     x1="1329.0043"
+     y1="512.1217"
+     x2="1342.0043"
+     y2="546.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line140" />
+  <line
+     x1="1379.0043"
+     y1="512.1217"
+     x2="1366.0043"
+     y2="546.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line141" />
+  <line
+     x1="1379.0043"
+     y1="512.1217"
+     x2="1394.0043"
+     y2="546.1217"
+     stroke="#203456"
+     stroke-width="2.5"
+     id="line142" />
+  <circle
+     cx="1354.0043"
+     cy="476.12177"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle142" />
+  <circle
+     cx="1329.0043"
+     cy="512.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle143" />
+  <circle
+     cx="1379.0043"
+     cy="512.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle144" />
+  <circle
+     cx="1312.0043"
+     cy="546.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle145" />
+  <circle
+     cx="1342.0043"
+     cy="546.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle146" />
+  <circle
+     cx="1366.0043"
+     cy="546.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle147" />
+  <circle
+     cx="1394.0043"
+     cy="546.1217"
+     r="8"
+     fill="#4c7cc9"
+     stroke="#142341"
+     stroke-width="2"
+     id="circle148" />
+  <text
+     x="1157.3926"
+     y="628.16473"
+     font-size="20px"
+     font-weight="700"
+     fill="#092064"
+     text-anchor="start"
+     id="text148"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan148">Label-transfer check</tspan></text>
+  <text
+     x="1157.3926"
+     y="662.16473"
+     font-size="16px"
+     font-weight="400"
+     fill="#092064"
+     text-anchor="start"
+     id="text150"><tspan
+       x="1157.3926"
+       dy="0"
+       id="tspan149">Nearest-label agreement</tspan><tspan
+       x="1157.3926"
+       dy="20"
+       id="tspan150">(target-level)</tspan></text>
+  <line
+     x1="1235.1733"
+     y1="704.43127"
+     x2="1260.1733"
+     y2="724.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line150" />
+  <line
+     x1="1260.1733"
+     y1="724.43127"
+     x2="1291.1733"
+     y2="708.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line151" />
+  <line
+     x1="1291.1733"
+     y1="708.43127"
+     x2="1319.1733"
+     y2="688.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line152" />
+  <line
+     x1="1319.1733"
+     y1="688.43127"
+     x2="1349.1733"
+     y2="710.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line153" />
+  <line
+     x1="1349.1733"
+     y1="710.43127"
+     x2="1372.1733"
+     y2="684.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line154" />
+  <line
+     x1="1372.1733"
+     y1="684.43127"
+     x2="1390.1733"
+     y2="717.43127"
+     stroke="#233a66"
+     stroke-width="3"
+     id="line155" />
+  <circle
+     cx="1235.1733"
+     cy="704.43127"
+     r="7"
+     fill="#c8ced7"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle155" />
+  <circle
+     cx="1260.1733"
+     cy="724.43127"
+     r="7"
+     fill="#4c7cc9"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle156" />
+  <circle
+     cx="1291.1733"
+     cy="708.43127"
+     r="7"
+     fill="#7297d4"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle157" />
+  <circle
+     cx="1319.1733"
+     cy="688.96851"
+     r="7"
+     fill="#254f9e"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle158" />
+  <circle
+     cx="1349.1733"
+     cy="710.43127"
+     r="7"
+     fill="#d61d1d"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle159" />
+  <circle
+     cx="1372.1733"
+     cy="684.43127"
+     r="7"
+     fill="#e21d1d"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle160" />
+  <circle
+     cx="1390.1733"
+     cy="717.43127"
+     r="7"
+     fill="#8b1d1d"
+     stroke="#18233f"
+     stroke-width="1.5"
+     id="circle161" />
+  <rect
+     x="1464.3926"
+     y="137.16475"
+     width="238"
+     height="116"
+     rx="8"
+     ry="8"
+     fill="#fcfcfc"
+     stroke="#9a9a9a"
+     stroke-width="1.2"
+     id="rect161" />
+  <rect
+     x="1464.3926"
+     y="269.16476"
+     width="238"
+     height="107"
+     rx="8"
+     ry="8"
+     fill="#fcfcfc"
+     stroke="#9a9a9a"
+     stroke-width="1.2"
+     id="rect162" />
+  <rect
+     x="1464.3926"
+     y="390.16476"
+     width="238"
+     height="109"
+     rx="8"
+     ry="8"
+     fill="#fcfcfc"
+     stroke="#9a9a9a"
+     stroke-width="1.2"
+     id="rect163" />
+  <rect
+     x="1464.3926"
+     y="514.16473"
+     width="238"
+     height="110"
+     rx="8"
+     ry="8"
+     fill="#fcfcfc"
+     stroke="#9a9a9a"
+     stroke-width="1.2"
+     id="rect164" />
+  <rect
+     x="1464.3926"
+     y="637.16473"
+     width="238"
+     height="108"
+     rx="8"
+     ry="8"
+     fill="#fcfcfc"
+     stroke="#9a9a9a"
+     stroke-width="1.2"
+     id="rect165" />
+  <line
+     x1="1478.9298"
+     y1="231.702"
+     x2="1557.4985"
+     y2="231.702"
+     stroke="#111111"
+     stroke-width="3"
+     id="line165" />
+  <line
+     x1="1478.9298"
+     y1="231.702"
+     x2="1478.9298"
+     y2="161.702"
+     stroke="#111111"
+     stroke-width="3"
+     id="line166" />
+  <polyline
+     points="1516,236 1540,206 1556,194 1571,201 1588,176 1604,168"
+     stroke="#193a7a"
+     stroke-width="4"
+     fill="none"
+     id="polyline166"
+     transform="matrix(0.76237747,0,0,0.76561458,322.7966,34.657254)" />
+  <text
+     x="1572.3926"
+     y="167.16475"
+     font-size="17px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text167"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan166">Metric</tspan><tspan
+       x="1572.3926"
+       dy="19.040001"
+       id="tspan167">mismatch</tspan></text>
+  <text
+     x="1572.3926"
+     y="207.16475"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text170"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan168">Pair-level vs</tspan><tspan
+       x="1572.3926"
+       dy="16.52"
+       id="tspan169">target-wise</tspan><tspan
+       x="1572.3926"
+       dy="16.52"
+       id="tspan170">(rank distortion)</tspan></text>
+  <ellipse
+     cx="1516.3339"
+     cy="325.55301"
+     fill="none"
+     stroke="#234f9b"
+     stroke-width="4.96118"
+     id="circle170"
+     rx="34.460659"
+     ry="34.99791" />
+  <ellipse
+     cx="1516.3339"
+     cy="325.55301"
+     fill="none"
+     stroke="#234f9b"
+     stroke-width="4.96118"
+     id="circle171"
+     rx="24.614756"
+     ry="24.998507" />
+  <ellipse
+     cx="1516.3339"
+     cy="325.55301"
+     fill="none"
+     stroke="#234f9b"
+     stroke-width="4.96118"
+     id="circle172"
+     rx="13.948362"
+     ry="14.16582" />
+  <line
+     x1="1518.6396"
+     y1="323.78937"
+     x2="1540.8844"
+     y2="299.98715"
+     stroke="#234f9b"
+     stroke-width="2.14573"
+     marker-end="url(#smallArrow)"
+     id="line172" />
+  <text
+     x="1572.3926"
+     y="296.16476"
+     font-size="17px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text173"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan172">Resource</tspan><tspan
+       x="1572.3926"
+       dy="19.040001"
+       id="tspan173">suitability</tspan></text>
+  <text
+     x="1572.3926"
+     y="339.16476"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text176"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan174">Which resource</tspan><tspan
+       x="1572.3926"
+       dy="16.52"
+       id="tspan175">better supports</tspan><tspan
+       x="1572.3926"
+       dy="16.52"
+       id="tspan176">screening?</tspan></text>
+  <rect
+     x="1474.6318"
+     y="464.40402"
+     width="10"
+     height="24"
+     fill="#b6b6b6"
+     stroke="#555555"
+     stroke-width="1.5"
+     id="rect176" />
+  <rect
+     x="1490.6318"
+     y="440.40402"
+     width="10"
+     height="48"
+     fill="#b6b6b6"
+     stroke="#555555"
+     stroke-width="1.5"
+     id="rect177" />
+  <rect
+     x="1506.6318"
+     y="412.40402"
+     width="10"
+     height="76"
+     fill="#b6b6b6"
+     stroke="#555555"
+     stroke-width="1.5"
+     id="rect178" />
+  <rect
+     x="1522.6318"
+     y="433.40402"
+     width="10"
+     height="55"
+     fill="#b6b6b6"
+     stroke="#555555"
+     stroke-width="1.5"
+     id="rect179" />
+  <rect
+     x="1538.6318"
+     y="454.40402"
+     width="10"
+     height="34"
+     fill="#b6b6b6"
+     stroke="#555555"
+     stroke-width="1.5"
+     id="rect180" />
+  <line
+     x1="1470.6318"
+     y1="488.40402"
+     x2="1570.6318"
+     y2="488.40402"
+     stroke="#333333"
+     stroke-width="2"
+     id="line180" />
+  <text
+     x="1572.3926"
+     y="424.16476"
+     font-size="17px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text181"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan180">Ligand-prior</tspan><tspan
+       x="1572.3926"
+       dy="19.040001"
+       id="tspan181">saturation</tspan></text>
+  <text
+     x="1572.3926"
+     y="469.16476"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text182"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan182">Is performance</tspan></text>
+  <text
+     x="1572.3926"
+     y="488.16476"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text183"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan183">chemistry-limited?</tspan></text>
+  <line
+     x1="1478.275"
+     y1="562.80798"
+     x2="1504.275"
+     y2="535.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line183" />
+  <line
+     x1="1478.275"
+     y1="562.80798"
+     x2="1536.275"
+     y2="543.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line184" />
+  <line
+     x1="1478.275"
+     y1="562.80798"
+     x2="1530.275"
+     y2="605.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line185" />
+  <line
+     x1="1478.275"
+     y1="562.80798"
+     x2="1495.275"
+     y2="599.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line186" />
+  <line
+     x1="1504.275"
+     y1="535.80798"
+     x2="1560.275"
+     y2="573.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line187" />
+  <line
+     x1="1504.275"
+     y1="535.80798"
+     x2="1530.275"
+     y2="605.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line188" />
+  <line
+     x1="1504.275"
+     y1="535.80798"
+     x2="1518.275"
+     y2="571.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line189" />
+  <line
+     x1="1536.275"
+     y1="543.80798"
+     x2="1560.275"
+     y2="573.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line190" />
+  <line
+     x1="1536.275"
+     y1="543.80798"
+     x2="1495.275"
+     y2="599.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line191" />
+  <line
+     x1="1536.275"
+     y1="543.80798"
+     x2="1518.275"
+     y2="571.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line192" />
+  <line
+     x1="1560.275"
+     y1="573.80798"
+     x2="1530.275"
+     y2="605.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line193" />
+  <line
+     x1="1560.275"
+     y1="573.80798"
+     x2="1495.275"
+     y2="599.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line194" />
+  <line
+     x1="1530.275"
+     y1="605.80798"
+     x2="1518.275"
+     y2="571.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line195" />
+  <line
+     x1="1495.275"
+     y1="599.80798"
+     x2="1518.275"
+     y2="571.80798"
+     stroke="#888888"
+     stroke-width="1.4"
+     id="line196" />
+  <circle
+     cx="1478.275"
+     cy="562.80798"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle196" />
+  <circle
+     cx="1504.275"
+     cy="535.80798"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle197" />
+  <circle
+     cx="1536.275"
+     cy="543.80798"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle198" />
+  <circle
+     cx="1560.275"
+     cy="574.34521"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle199" />
+  <circle
+     cx="1531.3496"
+     cy="606.34521"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle200" />
+  <circle
+     cx="1495.275"
+     cy="599.80798"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle201" />
+  <circle
+     cx="1518.275"
+     cy="571.80798"
+     r="7"
+     fill="#777777"
+     stroke="#222222"
+     stroke-width="1.5"
+     id="circle202" />
+  <text
+     x="1572.3926"
+     y="547.16473"
+     font-size="17px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text203"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan202">Target-context</tspan><tspan
+       x="1572.3926"
+       dy="19.040001"
+       id="tspan203">signal</tspan></text>
+  <text
+     x="1572.3926"
+     y="590.16473"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text204"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan204">Label-transfer</tspan></text>
+  <text
+     x="1572.3926"
+     y="609.16473"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text205"><tspan
+       x="1572.3926"
+       dy="0"
+       id="tspan205">dependence?</tspan></text>
+  <ellipse
+     cx="1516.3926"
+     cy="663.16473"
+     rx="32"
+     ry="12"
+     fill="#8d84d0"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="ellipse205" />
+  <rect
+     x="1484.3926"
+     y="663.16473"
+     width="64"
+     height="38"
+     fill="#6b6b6b"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="rect205" />
+  <ellipse
+     cx="1516.3926"
+     cy="701.16473"
+     rx="32"
+     ry="12"
+     fill="#5c55aa"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="ellipse206" />
+  <path
+     d="m 1484.3924,681.16475 c 18,10 46,10 64,0"
+     stroke="#ffffff"
+     stroke-width="3"
+     fill="none"
+     opacity="0.9"
+     id="path206" />
+  <path
+     d="m 1484.3924,699.16475 c 18,10 46,10 64,0"
+     stroke="#ffffff"
+     stroke-width="3"
+     fill="none"
+     opacity="0.9"
+     id="path207" />
+  <text
+     x="1574.0043"
+     y="659.95697"
+     font-size="17px"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text208"><tspan
+       x="1574.0043"
+       dy="0"
+       id="tspan207">Public</tspan><tspan
+       x="1574.0043"
+       dy="19.040001"
+       id="tspan208">stress test</tspan></text>
+  <text
+     x="1574.0043"
+     y="701.95697"
+     font-size="14px"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text211"><tspan
+       x="1574.0043"
+       dy="0"
+       id="tspan209">PubChem assays</tspan><tspan
+       x="1574.0043"
+       dy="16.1"
+       id="tspan210">(out-of-domain</tspan><tspan
+       x="1574.0043"
+       dy="16.1"
+       id="tspan211">generalization)</tspan></text>
+  <rect
+     x="40"
+     y="785"
+     width="36"
+     height="20"
+     fill="#fff8df"
+     stroke="#c29a2a"
+     stroke-width="1"
+     id="rect211" />
+  <text
+     x="89"
+     y="801"
+     font-size="15"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text212"><tspan
+       x="89"
+       dy="0"
+       id="tspan212">Data resources</tspan></text>
+  <rect
+     x="230"
+     y="785"
+     width="36"
+     height="20"
+     fill="#edf8e8"
+     stroke="#74a65f"
+     stroke-width="1"
+     id="rect212" />
+  <text
+     x="279"
+     y="801"
+     font-size="15"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text213"><tspan
+       x="279"
+       dy="0"
+       id="tspan213">Protocol</tspan></text>
+  <rect
+     x="374"
+     y="785"
+     width="36"
+     height="20"
+     fill="#eaf3ff"
+     stroke="#7ba0d0"
+     stroke-width="1"
+     id="rect213" />
+  <text
+     x="423"
+     y="801"
+     font-size="15"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text214"><tspan
+       x="423"
+       dy="0"
+       id="tspan214">Controls &amp; baselines</tspan></text>
+  <rect
+     x="592"
+     y="785"
+     width="36"
+     height="20"
+     fill="#eeeeee"
+     stroke="#8a8a8a"
+     stroke-width="1"
+     id="rect214" />
+  <text
+     x="641"
+     y="801"
+     font-size="15"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text215"><tspan
+       x="641"
+       dy="0"
+       id="tspan215">Diagnostics</tspan></text>
+  <rect
+     x="19"
+     y="836"
+     width="1736"
+     height="45"
+     rx="9"
+     ry="9"
+     fill="#ffffff"
+     stroke="#b8b8b8"
+     stroke-width="1.2"
+     stroke-dasharray="3 4"
+     id="rect215" />
+  <text
+     x="460"
+     y="866"
+     font-size="20"
+     font-weight="700"
+     fill="#0d1320"
+     text-anchor="end"
+     id="text216"><tspan
+       x="460"
+       dy="0"
+       id="tspan216">Outcome:</tspan></text>
+  <text
+     x="476"
+     y="866"
+     font-size="17"
+     font-weight="400"
+     fill="#0d1320"
+     text-anchor="start"
+     id="text217"><tspan
+       x="476"
+       dy="0"
+       id="tspan217">A standardized, low-cost, target-wise evaluation protocol that reveals screening-aligned performance and key failure modes.</tspan></text>
+  <text
+     x="12"
+     y="884"
+     font-size="9"
+     font-weight="400"
+     fill="#ffffff"
+     text-anchor="start"
+     id="text218"><tspan
+       x="12"
+       dy="0"
+       id="tspan218">Editable SVG reconstruction generated from manuscript figure content; no experimental data are encoded in this schematic.</tspan></text>
+</svg>

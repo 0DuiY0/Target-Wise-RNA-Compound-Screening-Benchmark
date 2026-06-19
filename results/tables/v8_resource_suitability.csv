@@ -1,0 +1,7 @@
+resource,resource_slice,protocol_role,independent_screening_evidence,n_pools,eligible_ge20,eligible_ge50,median_pool_size,main_caveat
+DeepRNA-DTI,unseen_compound / fold_target,internal resource-suitability anchor,partial,980,135,60,1.0,"Contains some screening-scale target pools, but evidence is internal and uneven across splits."
+DeepRNA-DTI,unseen_compound / setting_target,internal resource-suitability anchor,partial,196,46,31,5.0,"Contains some screening-scale target pools, but evidence is internal and uneven across splits."
+SMRTnet,official_cv_test / sequence_target,resource-suitability stress test,independent but fragmented,8329,0,0,1.0,independent ligand-based CV test but target pools are fragmented
+SMRTnet,benchmark_sources / sequence_target,resource-suitability stress test,benchmark-like caveated,1156,18,2,2.0,external benchmark-like tables; source and positive-rate caveats remain
+RNAsmol / ROBIN,robin_molperturbation,main paired target-wise evaluation,usable perturbation benchmark,27,27,13,49.0,small number of target pools; perturbation semantics must be explicit
+RNAsmol / ROBIN,robin_netperturbation,main paired target-wise evaluation,usable perturbation benchmark,27,27,17,53.0,small number of target pools; perturbation semantics must be explicit

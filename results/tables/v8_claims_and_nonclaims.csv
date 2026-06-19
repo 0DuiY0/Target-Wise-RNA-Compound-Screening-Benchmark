@@ -1,0 +1,9 @@
+type,statement
+claim,The target-wise protocol identifies whether pair-level resources form screening-scale candidate pools.
+claim,Strong ligand-only controls can saturate ROBIN molecule-perturbation early retrieval.
+claim,ROBIN network perturbation exposes target-context label-transfer failure despite near-identical chemistry.
+claim,RNAsmol gains concentrate in low-label-agreement network pools under the audited ROBIN settings.
+non-claim,The manuscript does not introduce a new RNA-compound architecture.
+non-claim,The manuscript does not prove causal RNA-binding mechanisms from label-transfer associations.
+non-claim,"The manuscript does not claim low-cost screening replaces docking, pose prediction, or complex modeling."
+non-claim,The manuscript does not claim RNAsmol is universally superior across all RNA-compound datasets.

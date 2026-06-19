@@ -1,0 +1,17 @@
+dataset,candidate_pool_id,target_id,compound_id,smiles,label,rnasmol_score,ligand_only_score
+smoke,smoke_target_alpha,alpha,alpha_c1,CCO,1,0.95,0.72
+smoke,smoke_target_alpha,alpha,alpha_c2,CCN,0,0.50,0.91
+smoke,smoke_target_alpha,alpha,alpha_c3,CCC,0,0.50,0.73
+smoke,smoke_target_alpha,alpha,alpha_c4,CCCl,1,0.80,0.62
+smoke,smoke_target_alpha,alpha,alpha_c5,CCBr,0,0.20,0.40
+smoke,smoke_target_alpha,alpha,alpha_c6,CCI,0,0.10,0.20
+smoke,smoke_target_beta,beta,beta_c1,C1CC1,0,0.90,0.95
+smoke,smoke_target_beta,beta,beta_c2,C1CN1,1,0.90,0.85
+smoke,smoke_target_beta,beta,beta_c3,C1CO1,0,0.40,0.80
+smoke,smoke_target_beta,beta,beta_c4,C1CS1,1,0.80,0.70
+smoke,smoke_target_beta,beta,beta_c5,C1CF1,0,0.30,0.30
+smoke,smoke_target_beta,beta,beta_c6,C1CCl1,0,0.20,0.10
+smoke,smoke_target_gamma,gamma,gamma_c1,COC,1,0.80,0.60
+smoke,smoke_target_gamma,gamma,gamma_c2,CON,0,0.70,0.90
+smoke,smoke_target_gamma,gamma,gamma_c3,COCl,0,0.20,0.30
+smoke,smoke_target_gamma,gamma,gamma_c4,COBr,0,0.10,0.20

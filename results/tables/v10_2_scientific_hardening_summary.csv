@@ -1,0 +1,4 @@
+hardening_item,evidence,paper_use
+partial_confounding_control,"vs Global kNN-25: slope -0.160, r -0.093, p=0.647; vs Global pos-NN: slope 0.498, r 0.314, p=0.119; vs XGBoost ECFP: slope -0.434, r -0.187, p=0.343",Report as target-pool association after controlling positive rate and candidate count.
+matched_label_agreement_contrast,"vs Global kNN-25: low-high 0.820, n=13, p=0.017; vs Global pos-NN: low-high 1.068, n=13, p=0.006; vs XGBoost ECFP: low-high 1.159, n=13, p=0.010","Use as a sensitivity analysis, not causal identification."
+per_target_transparency_table,84 dataset-threshold target-pool rows; 84 rows have ROBIN target-name matches; family labels remain unavailable.,Supplementary target-pool table for RNA biology/context transparency.

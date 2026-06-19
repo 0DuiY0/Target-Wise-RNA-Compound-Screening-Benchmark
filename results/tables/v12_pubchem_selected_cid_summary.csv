@@ -1,0 +1,9 @@
+run_name,aid,target_group,short_name,n_candidates,n_positive,n_negative,positive_rate,sampling_note
+lowprev_main,1259389,hiv_tar,HIV TAR RNA,3000,100,2900,0.03333333333333333,sampled 100 active and 2900 inactive CIDs from 615 active/102458 inactive deduplicated CIDs
+lowprev_main,1347074,pre_microrna_processing,Dicer pre-microRNA maturation,3000,100,2900,0.03333333333333333,sampled 100 active and 2900 inactive CIDs from 2829 active/43886 inactive deduplicated CIDs
+lowprev_main,1832,pos1_mex3_rna,POS-1/MEX RNA context,3000,100,2900,0.03333333333333333,sampled 100 active and 2900 inactive CIDs from 1137 active/299784 inactive deduplicated CIDs
+lowprev_main,651821,cag_repeat_rna,r(CAG) repeat RNA,3000,100,2900,0.03333333333333333,sampled 100 active and 2900 inactive CIDs from 4667 active/364260 inactive deduplicated CIDs
+ten_percent_robustness,1259389,hiv_tar,HIV TAR RNA,3000,300,2700,0.1,sampled 300 active and 2700 inactive CIDs from 615 active/102458 inactive deduplicated CIDs
+ten_percent_robustness,1347074,pre_microrna_processing,Dicer pre-microRNA maturation,3000,300,2700,0.1,sampled 300 active and 2700 inactive CIDs from 2829 active/43886 inactive deduplicated CIDs
+ten_percent_robustness,1832,pos1_mex3_rna,POS-1/MEX RNA context,3000,300,2700,0.1,sampled 300 active and 2700 inactive CIDs from 1137 active/299784 inactive deduplicated CIDs
+ten_percent_robustness,651821,cag_repeat_rna,r(CAG) repeat RNA,3000,300,2700,0.1,sampled 300 active and 2700 inactive CIDs from 4667 active/364260 inactive deduplicated CIDs

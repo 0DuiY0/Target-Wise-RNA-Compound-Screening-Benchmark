@@ -1,0 +1,181 @@
+# Third-party provenance manifest for the RNA target-wise screening benchmark.
+# Date audited: 2026-06-16
+#
+# This file records local third-party source trees used during exploration or
+# manuscript preparation. It is intentionally a provenance manifest, not a
+# vendoring manifest. The primary public repository should not include complete
+# external source trees unless the release plan explicitly says so.
+
+release_policy:
+  primary_repository_role: benchmark_protocol_and_reproduction_glue
+  default_external_code_policy: exclude_full_external_trees
+  preferred_reproduction_boundary:
+    - pin_upstream_url_and_commit
+    - provide_install_or_clone_instructions
+    - provide small compatibility patches only when needed and license-scoped
+    - archive aggregate benchmark outputs and smoke-test fixtures
+  never_bundle_by_default:
+    - model checkpoints
+    - raw upstream datasets with unclear redistribution rights
+    - generated feature caches
+    - local IDE files
+    - nested .git directories
+    - internal roadmaps, worklogs, and review notes
+
+sources:
+  - id: deeprna_dti
+    name: DeepRNA-DTI
+    local_path: DeepRNA-DTI
+    upstream_url: https://github.com/GIST-CSBL/DeepRNA-DTI.git
+    upstream_commit: 8389ba97015da8336d73b6483c3e71ddce4adf9a
+    license_observed: CC-BY-NC-SA-4.0
+    license_file_observed: DeepRNA-DTI/CC-BY-NC-SA-4.0
+    paper_role: partial resource-suitability anchor; not the main paired target-wise benchmark
+    local_status_summary:
+      tracked_modified_or_deleted_count: 5
+      untracked_entry_count: 23086
+      untracked_code_like_count: 73
+      untracked_data_model_doc_like_count: 23018
+    tracked_modified_files:
+      - src/data_utils.py
+      - src/model.py
+      - src/utils.py
+      - test.py
+      - train.py
+    local_added_code_like_paths:
+      - configs/deeprna_dti_v0/
+      - src/rna_adapters.py
+      - src/rna_encoders/
+    local_generated_or_downloaded_paths:
+      - cache/
+      - Model/trained_weight/
+      - 13321_2025_1132_MOESM1_ESM.docx
+    release_action: exclude_from_primary_public_repository
+    reproduction_action:
+      - cite upstream URL and commit
+      - do not redistribute local cache or trained weights unless upstream permissions are verified
+      - if DeepRNA-DTI-specific reproduction is required, create a separate fork or archive under the observed upstream license
+      - keep any compatibility patch outside the primary repository until its license boundary is reviewed
+    risk_level: high
+    risk_notes:
+      - local changes are larger than a simple device-index adaptation
+      - untracked cache and feature artifacts are extensive
+      - non-commercial share-alike license is not suitable for mixing into a permissively licensed primary repo
+
+  - id: rnasmol
+    name: RNAsmol
+    local_path: RNAsmol
+    upstream_url: https://github.com/hongli-ma/RNAsmol.git
+    upstream_commit: 0e97fd0fbce71d47212116948a8acbb1a2bbe7ae
+    license_observed: GPL-3.0
+    license_file_observed: RNAsmol/LICENSE
+    paper_role: main paired target-wise evaluation source through RNAsmol/ROBIN artifacts
+    local_status_summary:
+      tracked_modified_or_deleted_count: 15
+      untracked_entry_count: 2
+      untracked_code_like_count: 1
+      untracked_data_model_doc_like_count: 1
+    tracked_modified_files:
+      - rnasmol/preprocessing.py
+      - rnasmol/test.py
+      - rnasmol/train.py
+      - rnasmol/utils.py
+    tracked_deleted_cache_files:
+      - rnasmol/log/__pycache__/
+    local_added_code_like_paths:
+      - environment_4090_torch21.txt
+      - .gitignore
+    release_action: exclude_full_tree_from_primary_public_repository
+    reproduction_action:
+      - cite upstream URL and commit
+      - provide a GPL-scoped compatibility patch or separate fork only if full RNAsmol reruns are required
+      - keep generated target-wise aggregate tables in the benchmark release, not full upstream model artifacts
+    risk_level: medium
+    risk_notes:
+      - GPL-3.0 code should not be silently mixed into a differently licensed primary repository
+      - local tracked changes appear to be compatibility-oriented but should remain license-scoped
+
+  - id: smrtnet
+    name: SMRTnet
+    local_path: SMRTnet
+    upstream_url: https://github.com/Yuhan-Fei/SMRTnet.git
+    upstream_commit: 3bb10428207cafcefa860defdd8e72cd5ea47988
+    license_observed: MIT
+    license_file_observed: SMRTnet/LICENSE
+    paper_role: split-design and resource-suitability stress-test source; not a model-performance benchmark in this paper
+    local_status_summary:
+      tracked_modified_or_deleted_count: 0
+      untracked_entry_count: 1
+      untracked_code_like_count: 1
+      untracked_data_model_doc_like_count: 1
+    local_added_code_like_paths:
+      - environment_4090_windows_notes.txt
+    release_action: exclude_full_tree_from_primary_public_repository
+    reproduction_action:
+      - cite upstream URL and commit
+      - no fork or patch needed for the current manuscript claims
+      - include only aggregate resource-suitability outputs and regeneration instructions
+    risk_level: low
+    risk_notes:
+      - local tree is effectively upstream plus local environment notes
+
+  - id: deeprsma
+    name: DeepRSMA
+    local_path: DeepRSMA
+    upstream_url: https://github.com/Hhhzj-7/DeepRSMA.git
+    upstream_commit: 3414ede63efb93fff0bd81029261871dec8c7124
+    license_observed: no license file observed locally
+    license_file_observed: null
+    paper_role: historical exploratory reproduction; not part of the current v10 manuscript evidence chain
+    local_status_summary:
+      tracked_modified_or_deleted_count: 32
+      untracked_entry_count: 2
+      untracked_code_like_count: 1
+      untracked_data_model_doc_like_count: 1
+    tracked_modified_files:
+      - data/process_data_molecule.py
+      - data/process_data_rna.py
+      - data/process_independent_mole.py
+      - data/process_independent_rna.py
+      - data/vocab.py
+      - main_blind.py
+      - main_cv.py
+      - main_independent.py
+    tracked_deleted_cache_files:
+      - data/__pycache__/
+      - model/__pycache__/
+    local_added_code_like_paths:
+      - environment_4090_torch21.txt
+      - .gitignore
+    release_action: exclude_from_primary_public_repository
+    reproduction_action:
+      - do not include in the v10 public release unless the manuscript adds DeepRSMA evidence
+      - do not redistribute local modifications without resolving license status
+    risk_level: high
+    risk_notes:
+      - no local license file was observed
+      - not needed for current paper claims
+
+  - id: beacon_rnabenchmark
+    name: BEACON RNABenchmark
+    local_path: BEACON_RNABenchmark
+    upstream_url: https://github.com/terry-r123/RNABenchmark.git
+    upstream_commit: da7f9c7ac3f39605af27e1dfcdf879adba963d79
+    license_observed: Apache-2.0 at top level, with some GPL-style headers observed in submodules
+    license_file_observed: BEACON_RNABenchmark/LICENSE
+    paper_role: historical exploratory dependency; not part of the current v10 manuscript evidence chain
+    local_status_summary:
+      tracked_modified_or_deleted_count: 0
+      untracked_entry_count: 5
+      untracked_code_like_count: 4
+      untracked_data_model_doc_like_count: 1
+    local_generated_or_downloaded_paths:
+      - checkpoint/baseline/BEACON-B/
+    release_action: exclude_from_primary_public_repository
+    reproduction_action:
+      - do not bundle checkpoints in the v10 public release
+      - cite only if the manuscript or released scripts depend on BEACON artifacts
+    risk_level: medium
+    risk_notes:
+      - checkpoint files are downloaded/generated artifacts
+      - mixed headers in submodules should be reviewed before redistributing subsets

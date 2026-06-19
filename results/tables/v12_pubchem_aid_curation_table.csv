@@ -1,0 +1,5 @@
+aid,target_group,assay_context,direct_rna_binding,rna_context_type,binary_label_rule,manuscript_role
+651821,r(CAG) repeat RNA,fluorescence-based biochemical HTS to identify molecules that bind r(CAG) RNA repeats,yes,direct RNA binding/function,Active/Probe positive; Inactive negative; Inconclusive/Unspecified excluded; CID-level max label,direct RNA-context PubChem stress-test pool
+1259389,HIV TAR RNA,FRET displacement of FAM/TAMRA-labeled Tat peptide from HIV-1 TAR RNA,yes,direct RNA binding/function,Active/Probe positive; Inactive negative; Inconclusive/Unspecified excluded; CID-level max label,direct RNA-context PubChem stress-test pool
+1347074,pre-microRNA processing,Dicer-mediated maturation of pre-microRNA monitored by cat-ELCCA,no,RNA processing,Active/Probe positive; Inactive negative; Inconclusive/Unspecified excluded; CID-level max label,harder RNA-processing PubChem stress-test pool
+1832,POS-1/MEX RNA context,MEX-5/TCR-2 and POS-1/mex-3-RNA RNA-protein interaction screening context,no,RNA-protein/context,Active/Probe positive; Inactive negative; Inconclusive/Unspecified excluded; CID-level max label,RNA-context interaction PubChem stress-test pool

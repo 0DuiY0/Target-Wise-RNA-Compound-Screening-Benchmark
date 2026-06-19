@@ -1,0 +1,7 @@
+dataset,threshold,pair_metric,pair_metric_label,target_metric,target_metric_label,n_models,spearman_rank_correlation,pair_metric_leader,target_metric_leader,leader_match,rnasmol_pair_rank,rnasmol_target_rank,max_abs_rank_shift,mean_abs_rank_shift
+robin_molperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_ef5,Target-wise EF5,5,0.7071067811865475,Global pos-NN,Global pos-NN | RF ECFP | RNAsmol | XGBoost ECFP,False,4.0,1.0,3.0,1.2
+robin_molperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_mrr,Target-wise MRR,5,0.7071067811865475,Global pos-NN,Global pos-NN | RF ECFP | RNAsmol | XGBoost ECFP,False,4.0,1.0,3.0,1.2
+robin_molperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_first_hit_rank,First-hit rank,5,0.7071067811865475,Global pos-NN,Global pos-NN | RF ECFP | RNAsmol | XGBoost ECFP,False,4.0,1.0,3.0,1.2
+robin_netperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_ef5,Target-wise EF5,5,0.8999999999999998,RNAsmol,RNAsmol,True,1.0,1.0,1.0,0.4
+robin_netperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_mrr,Target-wise MRR,5,0.8720815992723809,RNAsmol,RNAsmol | XGBoost ECFP,False,1.0,1.0,1.0,0.6
+robin_netperturbation,50,global_pair_aupr,Pooled-pair AUPR,mean_first_hit_rank,First-hit rank,5,0.8720815992723809,RNAsmol,RNAsmol | XGBoost ECFP,False,1.0,1.0,1.0,0.6
