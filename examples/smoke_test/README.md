@@ -1,4 +1,4 @@
-# v9 Smoke-Test Fixture
+﻿# v9 Smoke-Test Fixture
 
 This synthetic fixture exercises the public target-wise screening utilities
 without redistributing upstream RNA-compound data.
@@ -24,5 +24,6 @@ target_level_metrics.csv
 model_summary_metrics.csv
 pairwise_delta_summary.csv
 smoke_figure.pdf
-checksums_sha256.csv
+smoke_test_manifest.json
 ```
+

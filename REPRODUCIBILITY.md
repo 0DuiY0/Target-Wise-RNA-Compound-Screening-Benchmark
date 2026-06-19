@@ -17,9 +17,8 @@ Minimal pip installation:
 python -m pip install -r requirements.txt
 ```
 
-The minimal environment is sufficient for public-path auditing, checksum
-verification, and the synthetic smoke test. Full upstream reruns require the
-original resources and package versions used by the upstream projects.
+The minimal environment is sufficient for public-path auditing and the synthetic
+smoke test. Full upstream reruns require the original resources and package versions used by the upstream projects.
 
 ## Smoke Test
 
@@ -37,7 +36,6 @@ model_summary_metrics.csv
 pairwise_delta_summary.csv
 smoke_figure.pdf
 smoke_test_manifest.json
-checksums_sha256.csv
 ```
 
 ## Public Path Audit
@@ -51,27 +49,13 @@ python scripts/audit_public_paths.py --root . --fail-on-local-paths
 This checks text-like files for local drive-qualified paths, home-directory
 paths, repository-root paths, and conda `prefix:` entries.
 
-## Checksum Verification
-
-Release checksums are written to:
-
-```text
-checksums_sha256.csv
-public_export_manifest.json
-```
-
-Verify the generated checksum file with:
-
-```bash
-python scripts/verify_checksums.py --root . --checksums checksums_sha256.csv
-```
-
 ## Full Rerun Boundary
 
 The public repository does not vendor third-party model repositories, upstream
 raw datasets, checkpoints, generated feature caches, or manuscript
 development history. Full reruns from upstream resources require following
 `DATA_PROVENANCE.md` and `third_party/sources.yml`.
+
 
 
 

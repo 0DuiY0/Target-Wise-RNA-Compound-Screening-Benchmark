@@ -1,10 +1,8 @@
-"""Run the v9 synthetic clean-clone smoke test."""
+﻿"""Run the v9 synthetic clean-clone smoke test."""
 
 from __future__ import annotations
 
 import argparse
-import csv
-import hashlib
 import json
 import math
 from datetime import datetime, timezone
@@ -255,28 +253,6 @@ def plot_smoke(summary: pd.DataFrame, output_dir: Path) -> Path:
     return path
 
 
-def sha256(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
-def write_checksums(paths: list[Path], output_path: Path) -> None:
-    with output_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["relative_path", "sha256", "size_bytes"])
-        writer.writeheader()
-        for path in sorted(paths):
-            writer.writerow(
-                {
-                    "relative_path": path.name,
-                    "sha256": sha256(path),
-                    "size_bytes": path.stat().st_size,
-                }
-            )
-
-
 def main() -> None:
     args = parse_args()
     output_dir = args.output.resolve()
@@ -319,15 +295,12 @@ def main() -> None:
     }
     manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
-    checksum_path = output_dir / "checksums_sha256.csv"
-    write_checksums([target_path, summary_path, delta_path, manifest_path, figure_path], checksum_path)
 
     print(f"wrote {target_path}")
     print(f"wrote {summary_path}")
     print(f"wrote {delta_path}")
     print(f"wrote {figure_path}")
     print(f"wrote {manifest_path}")
-    print(f"wrote {checksum_path}")
 
 
 if __name__ == "__main__":

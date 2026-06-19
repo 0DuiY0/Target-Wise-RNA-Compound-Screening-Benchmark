@@ -6,16 +6,17 @@ RNA-compound screening benchmark manuscript
 
 ## Executive Decision
 
-The current workspace should not be published as-is. It is a workbench that
-contains the benchmark/protocol code, manuscript artifacts, external repository
-clones, downloaded model checkpoints, generated caches, local compatibility
-notes, and internal planning documents.
+The development workspace was not mirrored as the public repository. It
+contained benchmark/protocol code, manuscript working files, external
+repository clones, downloaded model checkpoints, generated caches, local
+compatibility notes, and internal planning documents.
 
-The public GitHub repository should instead be a clean benchmark/protocol
-repository. It should include our own reproduction scripts, paper source,
-aggregate outputs, figure/table scripts, smoke-test fixture, and provenance
-metadata. External model repositories should be referenced by upstream URL and
-commit, not vendored wholesale.
+The public GitHub repository is instead a clean accompanying-code package. It
+includes repository metadata, a synthetic smoke-test fixture, final aggregate
+result tables, manuscript figure previews, editable Fig. 1 source assets,
+minimal environment files, path-audit scripts, and provenance
+metadata. External model repositories are referenced by upstream URL and commit
+rather than vendored wholesale.
 
 Machine-readable source metadata is recorded in:
 
@@ -23,7 +24,7 @@ Machine-readable source metadata is recorded in:
 third_party/sources.yml
 ```
 
-## Why the Current Workspace Cannot Be Mirrored
+## Why the Development Workspace Cannot Be Mirrored
 
 The root directory contains nested clones of several external projects:
 
@@ -171,7 +172,7 @@ paper/targetwise_lowcost_screening_v10_oup/
 reports/deeprna_dti_v10/paper_tables/
 reports/deeprna_dti_v10/figures/
 release/README.md
-release/*.csv or *.json manifests/checksums
+release metadata manifests
 docs/reproducibility.md
 docs/data_provenance.md
 docs/third_party_sources.md
@@ -211,7 +212,7 @@ aggregate CSV result tables
 paper-ready figures
 LaTeX manuscript source
 synthetic smoke-test fixture
-checksums and manifest files
+manifest files
 environment files
 data provenance documentation
 ```
@@ -244,4 +245,6 @@ feature caches unless redistribution rights are confirmed.
    adaptation is broad and the license boundary is more restrictive.
 4. Internal documentation: keep worklogs and roadmaps private unless a curated
    protocol document is rewritten for public release.
+
+
 

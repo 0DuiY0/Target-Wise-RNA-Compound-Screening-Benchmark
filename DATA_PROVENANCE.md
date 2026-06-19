@@ -13,7 +13,6 @@ The GitHub release may include:
 examples/smoke_test/smoke_pairs.csv
 results/tables/*.csv
 assets/figures/*.png
-checksums_sha256.csv
 public_export_manifest.json
 ```
 
@@ -88,4 +87,6 @@ redistributing upstream raw resources.
 A full rerun requires obtaining upstream resources from their original sources
 and respecting their licenses. Local compatibility patches or forks should be
 used only when documented in `third_party/sources.yml`.
+
+
 

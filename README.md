@@ -29,7 +29,7 @@ structures, docking poses, or RNA-ligand complex features.
 assets/figures/        manuscript figure previews and editable Fig. 1 SVG source
 examples/smoke_test/   synthetic fixture for clean-clone checks
 results/tables/        final aggregate CSV summary tables
-scripts/               smoke test, checksum verification, and path audit
+scripts/               smoke test and path audit
 third_party/           upstream source provenance and patch policy
 ```
 
@@ -56,11 +56,6 @@ Run the self-contained synthetic smoke test:
 python scripts/run_smoke_test.py --input examples/smoke_test --output reports/smoke_test
 ```
 
-Verify public checksums after release packaging:
-
-```bash
-python scripts/verify_checksums.py --root . --checksums checksums_sha256.csv
-```
 
 Audit the public tree for local machine paths:
 
@@ -88,7 +83,7 @@ DATA_PROVENANCE.md
 ```
 
 The GitHub release is the primary public package for code, smoke tests,
-aggregate tables, figure previews, editable Fig. 1 source, environment files, checksums, and
+aggregate tables, figure previews, editable Fig. 1 source, environment files, and
 provenance metadata. Separate archival bundles, if deposited, should be cited
 from the corresponding GitHub release notes.
 
@@ -96,6 +91,8 @@ from the corresponding GitHub release notes.
 
 Please cite the associated manuscript and repository release. Machine-readable
 citation metadata are provided in `CITATION.cff`.
+
+
 
 
 
