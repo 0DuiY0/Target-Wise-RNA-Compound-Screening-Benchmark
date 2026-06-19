@@ -26,7 +26,8 @@ authors:
   - family-names: "Zeng"
     given-names: "Xiangxiang"
     email: "xzeng@hnu.edu.cn"
-    affiliation: "College of Computer Science and Electronic Engineering, Hunan University"
+    affiliation: "College of Computer Science and Electronic Engineering, Hunan University; Yuelushan Laboratory"
+    orcid: "https://orcid.org/0000-0003-1081-7658"
   - family-names: "Wang"
     given-names: "Tong"
     email: "wangtong@hnu.edu.cn"
@@ -42,7 +43,7 @@ authors:
     email: "hwchen@hnu.edu.cn"
     affiliation: "College of Computer Science and Electronic Engineering, Hunan University; Yuelushan Laboratory"
     orcid: "https://orcid.org/0000-0002-4777-7525"
-version: "v1.0.0"
+version: "v1.0.1"
 date-released: "2026-06-19"
 license: "MIT"
 repository-code: "https://github.com/0DuiY0/Target-Wise-RNA-Compound-Screening-Benchmark"
@@ -50,5 +51,3 @@ abstract: >-
   Benchmark protocol, audit scripts, aggregate result tables, manuscript
   artifacts, and smoke-test fixture for low-cost target-wise RNA-compound
   screening evaluation.
-
-
