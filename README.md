@@ -29,7 +29,7 @@ structures, docking poses, or RNA-ligand complex features.
 assets/figures/        manuscript figure previews and editable Fig. 1 SVG source
 examples/smoke_test/   synthetic fixture for clean-clone checks
 results/tables/        final aggregate CSV summary tables
-scripts/               smoke test and path audit
+scripts/               smoke test, path audit, and selected manuscript probes
 third_party/           upstream source provenance and patch policy
 ```
 
@@ -61,6 +61,16 @@ Audit the public tree for local machine paths:
 
 ```bash
 python scripts/audit_public_paths.py --root . --fail-on-local-paths
+```
+
+Optional manuscript-supporting probe scripts are included for transparency.
+They require the corresponding upstream resources and are not part of the
+self-contained smoke test:
+
+```text
+scripts/probe_rnasmol_ligand_only_training_ablation.py
+scripts/probe_rnasmol_rna_context_ablation.py
+scripts/summarize_rnasmol_ligand_only_probe.py
 ```
 
 ## Data And Artifacts

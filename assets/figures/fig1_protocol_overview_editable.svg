@@ -426,6 +426,12 @@
        x="141.17627"
        dy="0"
        id="tspan22">SMRTnet</tspan></text>
+  <path
+     d="m 104.17625,603.70197 v 48 c 18,12 56,12 74,0 v -48"
+     fill="#4b3d91"
+     stroke="#1e1b50"
+     stroke-width="2"
+     id="path-pubchem-database-body" />
   <ellipse
      cx="141.17627"
      cy="603.70197"
@@ -435,15 +441,6 @@
      stroke="#1e1b50"
      stroke-width="2"
      id="ellipse22" />
-  <rect
-     x="104.17625"
-     y="603.70197"
-     width="74"
-     height="48"
-     fill="#4b3d91"
-     stroke="#1e1b50"
-     stroke-width="2"
-     id="rect22" />
   <ellipse
      cx="141.17627"
      cy="651.70197"
@@ -2499,31 +2496,28 @@
        x="1572.3926"
        dy="0"
        id="tspan205">dependence?</tspan></text>
+  <path
+     d="m 1484.3926,663.16473 v 38 c 18,12 46,12 64,0 v -38"
+     fill="#6b6b6b"
+     stroke="#303030"
+     stroke-width="2"
+     id="path-pubchem-diagnostics-database-body" />
   <ellipse
      cx="1516.3926"
      cy="663.16473"
      rx="32"
      ry="12"
-     fill="#8d84d0"
-     stroke="#1e1b50"
+     fill="#8a8a8a"
+     stroke="#303030"
      stroke-width="2"
      id="ellipse205" />
-  <rect
-     x="1484.3926"
-     y="663.16473"
-     width="64"
-     height="38"
-     fill="#6b6b6b"
-     stroke="#1e1b50"
-     stroke-width="2"
-     id="rect205" />
   <ellipse
      cx="1516.3926"
      cy="701.16473"
      rx="32"
      ry="12"
-     fill="#5c55aa"
-     stroke="#1e1b50"
+     fill="#5f5f5f"
+     stroke="#303030"
      stroke-width="2"
      id="ellipse206" />
   <path

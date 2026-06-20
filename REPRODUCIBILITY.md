@@ -49,6 +49,18 @@ python scripts/audit_public_paths.py --root . --fail-on-local-paths
 This checks text-like files for local drive-qualified paths, home-directory
 paths, repository-root paths, and conda `prefix:` entries.
 
+## Optional Manuscript Probes
+
+The repository includes selected RNAsmol probe scripts used to support the
+manuscript tables. They are provided for transparency and require upstream
+RNAsmol resources, processed data, and a compatible PyTorch/PyG environment:
+
+```text
+scripts/probe_rnasmol_ligand_only_training_ablation.py
+scripts/probe_rnasmol_rna_context_ablation.py
+scripts/summarize_rnasmol_ligand_only_probe.py
+```
+
 ## Full Rerun Boundary
 
 The public repository does not vendor third-party model repositories, upstream

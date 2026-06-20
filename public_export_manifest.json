@@ -1,302 +1,288 @@
 {
-  "artifact_count": 49,
+  "artifact_count": 56,
   "artifacts": [
     {
-      "destination": ".gitattributes",
+      "path": ".gitattributes",
       "role": "repository_metadata",
-      "size_bytes": 99,
-      "source": ".gitattributes"
+      "size_bytes": 99
     },
     {
-      "destination": ".gitignore",
+      "path": ".gitignore",
       "role": "repository_metadata",
-      "size_bytes": 252,
-      "source": ".gitignore"
+      "size_bytes": 252
     },
     {
-      "destination": "README.md",
+      "path": "README.md",
       "role": "repository_metadata",
-      "size_bytes": 2906,
-      "source": "README.md"
+      "size_bytes": 3274
     },
     {
-      "destination": "LICENSE",
+      "path": "LICENSE",
       "role": "repository_metadata",
-      "size_bytes": 1069,
-      "source": "LICENSE"
+      "size_bytes": 1069
     },
     {
-      "destination": "CITATION.cff",
+      "path": "CITATION.cff",
       "role": "repository_metadata",
-      "size_bytes": 2464,
-      "source": "CITATION.cff"
+      "size_bytes": 2535
     },
     {
-      "destination": "DATA_PROVENANCE.md",
+      "path": "DATA_PROVENANCE.md",
       "role": "repository_metadata",
-      "size_bytes": 2377,
-      "source": "DATA_PROVENANCE.md"
+      "size_bytes": 2711
     },
     {
-      "destination": "REPRODUCIBILITY.md",
+      "path": "REPRODUCIBILITY.md",
       "role": "repository_metadata",
-      "size_bytes": 1331,
-      "source": "REPRODUCIBILITY.md"
+      "size_bytes": 1751
     },
     {
-      "destination": "assets/figures/fig1_protocol_overview.png",
+      "path": "assets/figures/fig1_protocol_overview.png",
       "role": "figure_preview",
-      "size_bytes": 1176159,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_protocol_overview.png"
+      "size_bytes": 404915
     },
     {
-      "destination": "assets/figures/fig1_metric_mismatch.png",
+      "path": "assets/figures/fig1_metric_mismatch.png",
       "role": "figure_preview",
-      "size_bytes": 421233,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_metric_mismatch.png"
+      "size_bytes": 421233
     },
     {
-      "destination": "assets/figures/fig2_resource_suitability.png",
+      "path": "assets/figures/fig2_resource_suitability.png",
       "role": "figure_preview",
-      "size_bytes": 92910,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig2_resource_suitability.png"
+      "size_bytes": 92910
     },
     {
-      "destination": "assets/figures/fig3_ligand_prior_saturation.png",
+      "path": "assets/figures/fig3_ligand_prior_saturation.png",
       "role": "figure_preview",
-      "size_bytes": 220826,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig3_ligand_prior_saturation.png"
+      "size_bytes": 220826
     },
     {
-      "destination": "assets/figures/fig4_label_transfer_mechanism.png",
+      "path": "assets/figures/fig4_label_transfer_mechanism.png",
       "role": "figure_preview",
-      "size_bytes": 289856,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig4_label_transfer_mechanism.png"
+      "size_bytes": 289856
     },
     {
-      "destination": "assets/figures/fig_s_validation_layer.png",
+      "path": "assets/figures/fig_s_validation_layer.png",
       "role": "figure_preview",
-      "size_bytes": 202741,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig_s_validation_layer.png"
+      "size_bytes": 202741
     },
     {
-      "destination": "assets/figures/fig_s_confounding_controls.png",
+      "path": "assets/figures/fig_s_confounding_controls.png",
       "role": "figure_preview",
-      "size_bytes": 163613,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig_s_confounding_controls.png"
+      "size_bytes": 163613
     },
     {
-      "destination": "assets/figures/fig1_protocol_overview_editable.svg",
+      "path": "assets/figures/fig1_protocol_overview_editable.svg",
       "role": "figure_source",
-      "size_bytes": 56908,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_protocol_overview_editable.svg"
+      "size_bytes": 56939
     },
     {
-      "destination": "assets/figures/fig1_components/icon_deeprna_dti_crop.png",
+      "path": "assets/figures/fig1_components/icon_deeprna_dti_crop.png",
       "role": "figure_source",
-      "size_bytes": 169312,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_components/icon_deeprna_dti_crop.png"
+      "size_bytes": 169312
     },
     {
-      "destination": "assets/figures/fig1_components/icon_rna_target_crop.png",
+      "path": "assets/figures/fig1_components/icon_rna_target_crop.png",
       "role": "figure_source",
-      "size_bytes": 84067,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_components/icon_rna_target_crop.png"
+      "size_bytes": 84067
     },
     {
-      "destination": "assets/figures/fig1_components/icon_rnasmol_robin_crop.png",
+      "path": "assets/figures/fig1_components/icon_rnasmol_robin_crop.png",
       "role": "figure_source",
-      "size_bytes": 173651,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_components/icon_rnasmol_robin_crop.png"
+      "size_bytes": 173651
     },
     {
-      "destination": "assets/figures/fig1_components/icon_smrtnet_crop.png",
+      "path": "assets/figures/fig1_components/icon_smrtnet_crop.png",
       "role": "figure_source",
-      "size_bytes": 355114,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_components/icon_smrtnet_crop.png"
+      "size_bytes": 355114
     },
     {
-      "destination": "assets/figures/fig1_components/ligand_control_rdkit.svg",
+      "path": "assets/figures/fig1_components/ligand_control_rdkit.svg",
       "role": "figure_source",
-      "size_bytes": 8531,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/figures/fig1_components/ligand_control_rdkit.svg"
+      "size_bytes": 8531
     },
     {
-      "destination": "results/tables/v10_2_label_transfer_matched_contrasts.csv",
+      "path": "results/tables/claims_and_nonclaims.csv",
       "role": "result_table",
-      "size_bytes": 1635,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_2_label_transfer_matched_contrasts.csv"
+      "size_bytes": 836
     },
     {
-      "destination": "results/tables/v10_2_label_transfer_partial_regression.csv",
+      "path": "results/tables/dataset_context_summary.csv",
       "role": "result_table",
-      "size_bytes": 3309,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_2_label_transfer_partial_regression.csv"
+      "size_bytes": 864
     },
     {
-      "destination": "results/tables/v10_2_robin_per_target_pool_table.csv",
+      "path": "results/tables/early_retrieval_key_comparisons.csv",
       "role": "result_table",
-      "size_bytes": 39190,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_2_robin_per_target_pool_table.csv"
+      "size_bytes": 12912
     },
     {
-      "destination": "results/tables/v10_2_scientific_hardening_summary.csv",
+      "path": "results/tables/early_retrieval_saturation_summary.csv",
       "role": "result_table",
-      "size_bytes": 753,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_2_scientific_hardening_summary.csv"
+      "size_bytes": 2202
     },
     {
-      "destination": "results/tables/v10_metric_mismatch_interpretation.csv",
+      "path": "results/tables/failure_mode_summary.csv",
       "role": "result_table",
-      "size_bytes": 3193,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_metric_mismatch_interpretation.csv"
+      "size_bytes": 1262
     },
     {
-      "destination": "results/tables/v10_validation_summary.csv",
+      "path": "results/tables/label_transfer_key.csv",
       "role": "result_table",
-      "size_bytes": 1256,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v10_validation_summary.csv"
+      "size_bytes": 12930
     },
     {
-      "destination": "results/tables/v12_pubchem_aid_curation_table.csv",
+      "path": "results/tables/label_transfer_matched_contrasts.csv",
       "role": "result_table",
-      "size_bytes": 1177,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v12_pubchem_aid_curation_table.csv"
+      "size_bytes": 1635
     },
     {
-      "destination": "results/tables/v12_pubchem_model_summary_for_manuscript.csv",
+      "path": "results/tables/label_transfer_partial_regression.csv",
       "role": "result_table",
-      "size_bytes": 8423,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v12_pubchem_model_summary_for_manuscript.csv"
+      "size_bytes": 3309
     },
     {
-      "destination": "results/tables/v12_pubchem_sampling_stability_summary.csv",
+      "path": "results/tables/metric_alignment_key.csv",
       "role": "result_table",
-      "size_bytes": 2893,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v12_pubchem_sampling_stability_summary.csv"
+      "size_bytes": 1295
     },
     {
-      "destination": "results/tables/v12_pubchem_selected_cid_summary.csv",
+      "path": "results/tables/metric_mismatch_interpretation.csv",
       "role": "result_table",
-      "size_bytes": 1534,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v12_pubchem_selected_cid_summary.csv"
+      "size_bytes": 3193
     },
     {
-      "destination": "results/tables/v8_claims_and_nonclaims.csv",
+      "path": "results/tables/pubchem_aid_curation_table.csv",
       "role": "result_table",
-      "size_bytes": 836,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_claims_and_nonclaims.csv"
+      "size_bytes": 1177
     },
     {
-      "destination": "results/tables/v8_dataset_context_summary.csv",
+      "path": "results/tables/pubchem_model_summary_for_manuscript.csv",
       "role": "result_table",
-      "size_bytes": 864,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_dataset_context_summary.csv"
+      "size_bytes": 8423
     },
     {
-      "destination": "results/tables/v8_early_retrieval_key_comparisons.csv",
+      "path": "results/tables/pubchem_sampling_stability_summary.csv",
       "role": "result_table",
-      "size_bytes": 12912,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_early_retrieval_key_comparisons.csv"
+      "size_bytes": 2893
     },
     {
-      "destination": "results/tables/v8_early_retrieval_saturation_summary.csv",
+      "path": "results/tables/pubchem_selected_cid_summary.csv",
       "role": "result_table",
-      "size_bytes": 2202,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_early_retrieval_saturation_summary.csv"
+      "size_bytes": 1534
     },
     {
-      "destination": "results/tables/v8_failure_mode_summary.csv",
+      "path": "results/tables/resource_suitability.csv",
       "role": "result_table",
-      "size_bytes": 1262,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_failure_mode_summary.csv"
+      "size_bytes": 1314
     },
     {
-      "destination": "results/tables/v8_label_transfer_key.csv",
+      "path": "results/tables/rnasmol_ligand_only_probe_model_summary_by_seed.csv",
       "role": "result_table",
-      "size_bytes": 12930,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_label_transfer_key.csv"
+      "size_bytes": 13735
     },
     {
-      "destination": "results/tables/v8_resource_suitability.csv",
+      "path": "results/tables/rnasmol_ligand_only_probe_paired_deltas_by_seed.csv",
       "role": "result_table",
-      "size_bytes": 1276,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_resource_suitability.csv"
+      "size_bytes": 4081
     },
     {
-      "destination": "results/tables/v8_scoring_information_boundaries.csv",
+      "path": "results/tables/rnasmol_ligand_only_probe_seed_manifest.csv",
       "role": "result_table",
-      "size_bytes": 1014,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_scoring_information_boundaries.csv"
+      "size_bytes": 1232
     },
     {
-      "destination": "results/tables/v8_threshold_sensitivity_network.csv",
+      "path": "results/tables/rnasmol_ligand_only_probe_summary.csv",
       "role": "result_table",
-      "size_bytes": 4732,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v8_threshold_sensitivity_network.csv"
+      "size_bytes": 1209
     },
     {
-      "destination": "results/tables/v9_metric_alignment_key.csv",
+      "path": "results/tables/robin_per_target_pool_table.csv",
       "role": "result_table",
-      "size_bytes": 1295,
-      "source": "paper/targetwise_lowcost_screening_v10_oup/tables/v9_metric_alignment_key.csv"
+      "size_bytes": 39190
     },
     {
-      "destination": "scripts/audit_public_paths.py",
+      "path": "results/tables/scientific_hardening_summary.csv",
+      "role": "result_table",
+      "size_bytes": 753
+    },
+    {
+      "path": "results/tables/scoring_information_boundaries.csv",
+      "role": "result_table",
+      "size_bytes": 1014
+    },
+    {
+      "path": "results/tables/target_pool_robustness_summary.csv",
+      "role": "result_table",
+      "size_bytes": 1256
+    },
+    {
+      "path": "results/tables/threshold_sensitivity_network.csv",
+      "role": "result_table",
+      "size_bytes": 4732
+    },
+    {
+      "path": "scripts/audit_public_paths.py",
       "role": "script",
-      "size_bytes": 5465,
-      "source": "scripts/audit_public_paths.py"
+      "size_bytes": 5465
     },
     {
-      "destination": "scripts/run_smoke_test.py",
+      "path": "scripts/probe_rnasmol_ligand_only_training_ablation.py",
       "role": "script",
-      "size_bytes": 10762,
-      "source": "scripts/run_smoke_test.py"
+      "size_bytes": 12772
     },
     {
-      "destination": "examples/smoke_test/README.md",
+      "path": "scripts/probe_rnasmol_rna_context_ablation.py",
+      "role": "script",
+      "size_bytes": 12201
+    },
+    {
+      "path": "scripts/run_smoke_test.py",
+      "role": "script",
+      "size_bytes": 11080
+    },
+    {
+      "path": "scripts/summarize_rnasmol_ligand_only_probe.py",
+      "role": "script",
+      "size_bytes": 7235
+    },
+    {
+      "path": "examples/smoke_test/README.md",
       "role": "smoke_fixture",
-      "size_bytes": 660,
-      "source": "examples/smoke_test/README.md"
+      "size_bytes": 660
     },
     {
-      "destination": "examples/smoke_test/smoke_pairs.csv",
+      "path": "examples/smoke_test/smoke_pairs.csv",
       "role": "smoke_fixture",
-      "size_bytes": 988,
-      "source": "examples/smoke_test/smoke_pairs.csv"
+      "size_bytes": 988
     },
     {
-      "destination": "third_party/patches/README.md",
+      "path": "third_party/patches/README.md",
       "role": "provenance",
-      "size_bytes": 1164,
-      "source": "third_party/patches/README.md"
+      "size_bytes": 1164
     },
     {
-      "destination": "third_party/sources.yml",
+      "path": "third_party/sources.yml",
       "role": "provenance",
-      "size_bytes": 7709,
-      "source": "third_party/sources.yml"
+      "size_bytes": 7709
     },
     {
-      "destination": "docs/release_provenance_audit.md",
+      "path": "docs/release_provenance_audit.md",
       "role": "documentation",
-      "size_bytes": 8421,
-      "source": "docs/release_provenance_audit.md"
+      "size_bytes": 8421
     },
     {
-      "destination": "environment.yml",
+      "path": "environment.yml",
       "role": "environment",
-      "size_bytes": 158,
-      "source": "release/environment_v9_minimal.yml"
+      "size_bytes": 158
     },
     {
-      "destination": "requirements.txt",
+      "path": "requirements.txt",
       "role": "environment",
-      "size_bytes": 43,
-      "source": "release/requirements_v9_minimal.txt"
+      "size_bytes": 43
     }
   ],
-  "created_utc": "2026-06-19T07:08:46.330249+00:00",
+  "created_utc": "2026-06-20T09:26:11.724583+00:00",
   "forbidden_violation_count": 0,
   "forbidden_violations": [],
   "manual_finalization_items": []

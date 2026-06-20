@@ -1,4 +1,4 @@
-﻿"""Run the v9 synthetic clean-clone smoke test."""
+﻿"""Run the synthetic clean-clone smoke test."""
 
 from __future__ import annotations
 
@@ -47,6 +47,13 @@ def parse_args() -> argparse.Namespace:
 
 def input_csv(path: Path) -> Path:
     return path / "smoke_pairs.csv" if path.is_dir() else path
+
+
+def manifest_path(path: Path, repo_root: Path) -> str:
+    try:
+        return path.resolve().relative_to(repo_root.resolve()).as_posix()
+    except ValueError:
+        return path.as_posix()
 
 
 def validate_input(df: pd.DataFrame, path: Path) -> None:
@@ -255,6 +262,7 @@ def plot_smoke(summary: pd.DataFrame, output_dir: Path) -> Path:
 
 def main() -> None:
     args = parse_args()
+    repo_root = Path(__file__).resolve().parents[1]
     output_dir = args.output.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -270,7 +278,7 @@ def main() -> None:
     target_path = output_dir / "target_level_metrics.csv"
     summary_path = output_dir / "model_summary_metrics.csv"
     delta_path = output_dir / "pairwise_delta_summary.csv"
-    manifest_path = output_dir / "smoke_test_manifest.json"
+    manifest_file = output_dir / "smoke_test_manifest.json"
     target_metrics.to_csv(target_path, index=False)
     summary.to_csv(summary_path, index=False)
     deltas.to_csv(delta_path, index=False)
@@ -278,14 +286,14 @@ def main() -> None:
 
     manifest = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
-        "input_csv": csv_path.as_posix(),
+        "input_csv": manifest_path(csv_path, repo_root),
         "min_candidates": args.min_candidates,
         "models": MODEL_SCORES,
         "outputs": {
-            "target_level_metrics": target_path.as_posix(),
-            "model_summary_metrics": summary_path.as_posix(),
-            "pairwise_delta_summary": delta_path.as_posix(),
-            "smoke_figure": figure_path.as_posix(),
+            "target_level_metrics": manifest_path(target_path, repo_root),
+            "model_summary_metrics": manifest_path(summary_path, repo_root),
+            "pairwise_delta_summary": manifest_path(delta_path, repo_root),
+            "smoke_figure": manifest_path(figure_path, repo_root),
         },
         "notes": [
             "Synthetic fixture only; no upstream data are redistributed.",
@@ -293,14 +301,14 @@ def main() -> None:
             "EF5 uses expected hits when the top-k boundary cuts through a tied score group.",
         ],
     }
-    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    manifest_file.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
 
     print(f"wrote {target_path}")
     print(f"wrote {summary_path}")
     print(f"wrote {delta_path}")
     print(f"wrote {figure_path}")
-    print(f"wrote {manifest_path}")
+    print(f"wrote {manifest_file}")
 
 
 if __name__ == "__main__":
