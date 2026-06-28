@@ -55,7 +55,7 @@ sources:
       - cite upstream URL and commit
       - do not redistribute local cache or trained weights unless upstream permissions are verified
       - if DeepRNA-DTI-specific reproduction is required, create a separate fork or archive under the observed upstream license
-      - keep any compatibility patch outside the primary repository until its license boundary is reviewed
+      - keep compatibility patches outside the primary repository unless a separate license-scoped patch release is documented
     risk_level: high
     risk_notes:
       - local changes are larger than a simple device-index adaptation

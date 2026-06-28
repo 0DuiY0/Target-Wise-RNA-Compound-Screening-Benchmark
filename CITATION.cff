@@ -43,8 +43,8 @@ authors:
     email: "xzeng@hnu.edu.cn"
     affiliation: "College of Computer Science and Electronic Engineering, Hunan University; Yuelushan Laboratory"
     orcid: "https://orcid.org/0000-0003-1081-7658"
-version: "v1.0.2"
-date-released: "2026-06-20"
+version: "v1.0.3"
+date-released: "2026-06-29"
 license: "MIT"
 repository-code: "https://github.com/0DuiY0/Target-Wise-RNA-Compound-Screening-Benchmark"
 abstract: >-

@@ -157,30 +157,29 @@ Decision:
 Exclude from the v10 release. Do not bundle checkpoint files. Revisit only if a
 released script requires BEACON artifacts.
 
-## Public Repository Inclusion Boundary
+## Public Release Boundary
 
-The primary public GitHub repository should include:
+The public GitHub release is a clean benchmark/protocol package, not a mirror of
+the development workspace. It includes:
 
 ```text
 README.md
 LICENSE
 CITATION.cff
-environment.yml or requirements.txt
-scripts/
+DATA_PROVENANCE.md
+REPRODUCIBILITY.md
+environment.yml
+requirements.txt
+public_export_manifest.json
+assets/figures/
 examples/smoke_test/
-paper/targetwise_lowcost_screening_v10_oup/
-reports/deeprna_dti_v10/paper_tables/
-reports/deeprna_dti_v10/figures/
-release/README.md
-release metadata manifests
-docs/reproducibility.md
-docs/data_provenance.md
-docs/third_party_sources.md
+results/tables/
+scripts/
 third_party/sources.yml
 third_party/patches/README.md
 ```
 
-The primary public GitHub repository should exclude:
+The release excludes:
 
 ```text
 DeepRNA-DTI/
@@ -198,53 +197,17 @@ saved_model/
 checkpoint/
 raw upstream datasets unless redistribution is verified
 large generated feature caches
-internal handoff, roadmap, worklog, and simulated review notes
+internal handoff, roadmap, worklog, and review notes
+manuscript development history
 ```
 
-## Archive Bundle Boundary
+## Archive Boundary
 
-The Zenodo or equivalent archive should contain the immutable submission
-version of the primary benchmark repository plus the public result bundle. The
-bundle can include:
-
-```text
-aggregate CSV result tables
-paper-ready figures
-LaTeX manuscript source
-synthetic smoke-test fixture
-manifest files
-environment files
-data provenance documentation
-```
-
-The archive should not include upstream raw datasets, model checkpoints, or
-feature caches unless redistribution rights are confirmed.
-
-## Recommended Next Actions
-
-1. Create a clean release-export directory from a whitelist, not by deleting
-   files from the current workspace.
-2. Add public-facing `README.md`, `REPRODUCIBILITY.md`,
-   `DATA_PROVENANCE.md`, `LICENSE`, and `CITATION.cff`.
-3. Add a release-export script that copies only approved files and fails if
-   forbidden directories appear.
-4. Run a clean-clone smoke test against the exported repository.
-5. Only after the export passes, create the public GitHub repository and
-   archive the tagged release.
-
-## Open Decisions
-
-1. Primary repository license: choose after confirming that no external GPL or
-   CC-BY-NC-SA code is bundled. If the export contains only original benchmark
-   scripts and aggregate outputs, a permissive license such as MIT, BSD-3, or
-   Apache-2.0 is viable.
-2. RNAsmol rerun requirement: decide whether reviewers need a full upstream
-   rerun path or whether aggregate target-wise outputs plus upstream citation
-   and regeneration instructions are sufficient.
-3. DeepRNA-DTI rerun requirement: avoid unless necessary, because its local
-   adaptation is broad and the license boundary is more restrictive.
-4. Internal documentation: keep worklogs and roadmaps private unless a curated
-   protocol document is rewritten for public release.
-
+The tagged GitHub release and corresponding archive contain the immutable public
+benchmark package: aggregate CSV result tables, manuscript figure previews,
+editable Fig. 1 source assets, a synthetic smoke-test fixture, manifest files,
+environment files, and data provenance documentation. Upstream raw datasets,
+model checkpoints, generated feature caches, and full third-party source trees
+are not bundled unless redistribution rights are verified.
 
 

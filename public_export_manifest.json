@@ -124,7 +124,7 @@
     {
       "path": "results/tables/failure_mode_summary.csv",
       "role": "result_table",
-      "size_bytes": 1262
+      "size_bytes": 1430
     },
     {
       "path": "results/tables/label_transfer_key.csv",
@@ -174,7 +174,7 @@
     {
       "path": "results/tables/resource_suitability.csv",
       "role": "result_table",
-      "size_bytes": 1314
+      "size_bytes": 1363
     },
     {
       "path": "results/tables/rnasmol_ligand_only_probe_model_summary_by_seed.csv",
@@ -214,7 +214,7 @@
     {
       "path": "results/tables/target_pool_robustness_summary.csv",
       "role": "result_table",
-      "size_bytes": 1256
+      "size_bytes": 1265
     },
     {
       "path": "results/tables/threshold_sensitivity_network.csv",
@@ -249,7 +249,7 @@
     {
       "path": "examples/smoke_test/README.md",
       "role": "smoke_fixture",
-      "size_bytes": 660
+      "size_bytes": 653
     },
     {
       "path": "examples/smoke_test/smoke_pairs.csv",
@@ -259,17 +259,17 @@
     {
       "path": "third_party/patches/README.md",
       "role": "provenance",
-      "size_bytes": 1164
+      "size_bytes": 1149
     },
     {
       "path": "third_party/sources.yml",
       "role": "provenance",
-      "size_bytes": 7709
+      "size_bytes": 7729
     },
     {
       "path": "docs/release_provenance_audit.md",
       "role": "documentation",
-      "size_bytes": 8421
+      "size_bytes": 6987
     },
     {
       "path": "environment.yml",
